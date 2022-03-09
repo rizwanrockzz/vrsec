@@ -1,0 +1,29 @@
+
+1. Define Universe of discourse.
+2. There are 10 telegrams and 2 messenger boys; in how many different ways can the telegrams be
+distributed to the messenger boys if the telegrams are distinguishable?
+3. If problem A can be done in 4 ways and a second problem B, independent of problem A can be
+done in 3 ways, find the number of ways of doing both the problems A and B.
+4. Write all 3 combinations of (o.a, co.b, co., o.d)
+Answer any two of the following questions.
+
+
+
+5. (a) Verify that the following argument is valid by using the rules of inference:
+If Clifton does not live in France, then he does not speak French. Clifton does not drive a Dastun.
+If Clifton lives in France, then he rides a bicycle. Either Clifton speaks French, or he drives a
+Dastun. Hence, Clifton rides a bicycle.
+
+
+(b) Test the validity: All integers are irrational numbers. Some integers are powers of 2.
+Therefore, some irrational numbers is a power of 2.
+CO-1 K3
+
+6. Suppose that the license plates of a certain state require 3 English letters followed by 4 digits. (a)
+How many different plates can be manufactured if repetitions of letters and digits are allowed?
+(b) How many plates are possible if only the letters can be repeated? (c) How many are possible if
+only the digits can be repeated (d) How many are possible if no repetitions are allowed at all?
+
+
+7. (a) Solve the recurrence relation an-Ta-1 + 10 an-2 = 0 for n>2. CO-2 K5
+(b) Find the particular solution of a -4a-1 +42-2 = 2".
