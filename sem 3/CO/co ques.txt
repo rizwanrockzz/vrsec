@@ -1,0 +1,57 @@
+IMPORTANT QUESTIONS
+
+UNIT I
+
+1. Construction of BUS - 109
+2. Binary Adder - 114
+3. Binary Adder Subtractor - 115
+4. Hardware for shifter - 126
+5. Hardwired control unit or Timing and control unit - 146
+6. RTL statements for Memory Reference instructions - 156
+7. Arthemetic circuit 4 bit  - 117
+
+UNIT II
+
+1. Microprogrammed contrl unit - 224
+2. Microprogram sequencer - 242,234
+3. Stack organization
+4. Instruction formats(one address, two address, three address, zero address) - 267
+5. Addressing modes
+6. RISC and CISC charateristics
+
+UNIT III
+
+1. Flowcharts for arithmetic operations - 346
+2. Associative memory - 458
+3. Cache Memory - 464
+4. memory hierarchy - 448
+
+UNIT IV
+
+1. Handshaking
+2. Priority interrupt
+3. DMA  - 423
+4. Multiprocessors characteristics
+5. Interconnection structures
+
+
+
+
+
+fixedpoint flowcharts:
+
+add & sub : thttps://www.youtube.com/watch?v=bQOOsrE11gc&ab_channel=SemestersSimplified
+example : https://www.youtube.com/watch?v=Vw2Bh25Ekt0&t=33s&ab_channel=ashakhilrani
+
+
+
+
+multiply : https://www.youtube.com/watch?v=b_azyJ4ZgVo&ab_channel=SemestersSimplified
+
+booth multiplication : https://www.youtube.com/watch?v=MeD8iWb8wlo&ab_channel=SemestersSimplified
+
+
+
+division : https://www.youtube.com/watch?v=F2ZS09T7ofE&ab_channel=SemestersSimplified
+example : https://www.youtube.com/watch?v=BMBAm15kQdI&ab_channel=SemestersSimplified
+
