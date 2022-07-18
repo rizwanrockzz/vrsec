@@ -1,0 +1,39 @@
+Joins in R
+Joins in R:
+merge
+plyr join
+data.table merge
+
+merge:
+R comes with a built-in function, called merge, to merge two data.frames.
+Eg:
+>Aid90s00s<-merge(x=Aid_90s, y=Aid_00s, by.x=c(“Country.Name”, “Program.Name”), by.y=c(“Country.Name”, “Program.Name”))
+>head(Aid90s00s)
+The by.x specifies the key column(s) in the left data.frame and the by.y does the same for the right data.frame. The ability to specify different column names for each data.frame is the most useful feature of merge. The biggest drawback, is that merge can be much slower than the alternatives.
+
+plyr join
+Returning to Hadley Wickham’s plyr package, we see it includes a join function, which works similarly to merge but is much faster.
+The biggest drawback, through, is that the key column(s) in each table must have the same name.
+Eg:
+>require(plyr)
+>Aid90s00sJoin<-join(x=Aid_90s, y=Aid_00s, by=c(“Country.Name”, “Program.Name”))
+
+data.table merge:
+Like many other operations in data.table, joining data requires a different syntax, and possibly a different way of thinking. To start, we convert two of our foreign aid datasets’ data.frames into data.tables.
+Eg:
+>require(data.table)
+>dt90<-data.table(Aids_90s, key=c(“Country.Name”, “Program.Name”))
+>dt00<-data.table(Aid_00s, key=c(“Country.Name”, “Program.Name”))
+Then, doing the join is a simple operation. Note that join requires specifying the keys for the data.tables, which we did during their creation.
+>dt0090<-dt90[dt00]
+In this case dt90 is the left side, dt00 is the right side and a left join was performed.
+
+links :
+
+https://www.geeksforgeeks.org/joining-of-dataframes-in-r-programming/
+
+https://www.r-bloggers.com/2018/04/regular-expressions-every-r-programmer-should-know/
+
+https://www.statology.org/str_split-in-r/
+
+https://stringr.tidyverse.org/reference/str_sub.html

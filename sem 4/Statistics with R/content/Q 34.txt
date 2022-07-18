@@ -1,0 +1,8 @@
+install.packages("ggplot2")
+
+library(ggplot2)
+
+p <- ggplot(mpg, aes(x=factor(cyl)))+ geom_bar(stat="count")
+p
+
+ggplot(data=mpg, aes(x=hwy)) + geom_histogram( col="red", fill="green", alpha = .5, binwidth = 5)
