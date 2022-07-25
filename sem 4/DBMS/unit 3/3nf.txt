@@ -1,0 +1,37 @@
+Third normal form (3nf)
+***********************
+1.it is in 2nf
+2.There is no transitive dependency in a relation.
+
+Transitive dependency
+*********************
+a->b b->c 
+a->c     //transitive property
+// here a,b,c are three attributes in a same table
+
+before 3nf :  ( no 2nf + transitive property)
+************
+empid    ename     pincode   district   state
+ 85     jhanavi    521328    krishna    ap
+
+key attribute - empid
+non key attribute - ename  pincode district   state 
+
+empid ->  ename, pincode
+pincode-> distict,state 
+
+after 3nf :  
+***********
+1.empid ename pincode (2nf + no transitive dependency) (3nf)
+
+key attribute - empid
+non key attribute - ename , pincode 
+
+
+2.pincode district state (2nf + no transitive dependency) (3nf)
+ key attribute - pincode
+ non key attribute - district   state 
+
+
+
+

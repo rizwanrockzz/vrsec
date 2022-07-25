@@ -1,0 +1,24 @@
+3nf                                               bcnf
+***************************                   *******************************************
+1.no transitive dependency                    In BCNF for any relation A->B, 
+                                              A should be a super key of relation.
+
+2.It is less stronger than BCNF.              It is comparatively more stronger than 3NF.
+
+3.In 3NF the functional dependencies          In BCNF the functional dependencies 
+  are already in 1NF and 2NF.                 are already in 1NF, 2NF and 3NF.
+
+4.The redundancy is high in 3NF.              The redundancy is comparatively low in BCNF.
+
+5.In 3NF there is preservation of             In BCNF there may or may not be preservation 
+   all functional dependencies.               of all functional dependencies.
+
+6.Lossless decomposition can be               Lossless decomposition is hard to achieve in BCNF.
+  achieved by 3NF.
+
+7.It is comparatively easier to achieve.	It is difficult to achieve.
+
+8.every 3nf table there may or may not         every bcnf table must be in 3f	
+in bcnf	
+  
+  

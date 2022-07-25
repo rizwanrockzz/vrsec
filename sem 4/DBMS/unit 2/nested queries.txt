@@ -1,0 +1,196 @@
+1.discuss about nested queries or sub queries
+*******************************************
+definition -   query with in a quey
+**********
+two types - non correlated , correlated
+
+non correlated definition 
+**************************
+A uncorrelated sub-query is a type of sub-query where inner query doesn’t depend upon the outer query for its execution. 
+It can complete its execution as a standalone query. 
+
+example :
+SELECT * FROM
+  student 
+  WHERE dep_id =
+  (
+    SELECT id from department WHERE name = 'Computer'
+  );
+
+correlated definition
+*********************
+The inner query depends upon the outer query and cannot be executed as a standalone query.
+
+example
+
+SELECT   name, gender, age
+  FROM     student Greater
+  WHERE    age >
+  (SELECT   AVG (age)
+     FROM     student average
+     WHERE      greater.dep_id = average.dep_id) ;
+
+
+difference --   
+************* 
+
+nested queries or sub queries operators : in, not in,any,all,some,exists
+*****************************************
+
+
+The ‘ALL’, ‘ANY’, ’SOME’, ’IN’  operators allow you to perform a comparison between a single column value and a range of other values returned by the subquery.
+
+Syntax for using ‘ALL’
+Operand comparison_operator ALL (subquery)
+Syntax for using ‘ANY’
+Operand comparison_operator ANY (subquery)
+Syntax for using ‘SOME’
+Operand comparison_operator SOME (subquery)
+Syntax of using ‘IN’
+Operand comparison_operator IN (subquery)
+
+Note: The operator must be a standard comparison operator (=, <>, !=, >, >=, <, or <=).
+
+mysql> Select * from Customers;
++-------------+----------+
+| Customer_Id | Name     |
++-------------+----------+
+|           1 | Rahul    |
+|           2 | Yashpal  |
+|           3 | Gaurav   |
+|           4 | Virender |
++-------------+----------+
+
+
+mysql> Select * from Reservations;
++------+-------------+------------+
+| ID   | Customer_id | Day        |
++------+-------------+------------+
+|    1 |           1 | 2017-12-30 |
+|    2 |           2 | 2017-12-28 |
+|    3 |           2 | 2017-12-29 |
+|    4 |           1 | 2017-12-25 |
+|    5 |           3 | 2017-12-26 |
++------+-------------+------------+
+
+The SQL ANY Operator
+The ANY operator:
+
+returns a boolean value as a result
+returns TRUE if ANY of the subquery values meet the condition
+
+
+mysql> SELECT customer_id from customers WHERE customer_id = ANY(Select customer_id from reservations);
++-------------+
+| customer_id |
++-------------+
+|           1 |
+|           2 |
+|           3 |
++-------------+
+
+mysql> SELECT customer_id from customers WHERE customer_id = Some(Select customer_id from reservations);
++-------------+
+| customer_id |
++-------------+
+|           1 |
+|           2 |
+|           3 |
++-------------+
+
+
+
+
+The SQL ALL Operator
+The ALL operator:
+
+returns a boolean value as a result
+returns TRUE if ALL of the subquery values meet the condition
+
+mysql> SELECT customer_id from Customers WHERE customer_id <> ALL(Select customer_id from reservations);
++-------------+
+| customer_id |
++-------------+
+|           4 |
++-------------+
+
+
+
+mysql> SELECT customer_id from customers WHERE customer_id IN (Select customer_id from reservations);
++-------------+
+| customer_id |
++-------------+
+|           1 |
+|           2 |
+|           3 |
++-------------+
+
+
+What is the difference between in and any?
+IN - It is easy to understand. The query should select only those values which are specified in 'IN' clause. Now, let us understand 'ANY' with a query. 
+ANY means it should be greater or less than any of the values in the list.
+
+ANY and SOME are the same. You can use any one.
+
+
+2.set comparision operators
+***************************
+ANY,ALL,SOME,IN
+
+
+
+
+
+3.Explain about correlated subqueries
+*************************************
+definition --- 
+
+syntax 
+
+example
+
+
+
+
+
+
+4.difference between non correlated or correlated
+*************************************************
+definition defintion
+syntax      syntax
+example      example
+
+difference  ---
+
+
+
+5.Explain exists operator 
+*************************
+defintion 
+
+usage
+
+syntax
+
+example
+
+where exists
+
+EXISTS operator 
+***************
+The EXISTS operator is used to test for the existence of any record in a subquery.
+The EXISTS operator returns TRUE if the subquery returns one or more records.
+
+syntax:
+********
+SELECT column_name(s)
+FROM table_name
+WHERE EXISTS
+(SELECT column_name FROM table_name WHERE condition);
+
+example:
+********
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS 
+(SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);

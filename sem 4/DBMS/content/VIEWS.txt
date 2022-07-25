@@ -1,0 +1,125 @@
+
+VIEWS:
+******
+Views in SQL are kind of virtual tables.it is not a real tables.
+it does not occupy any physical memory.
+A view also has rows and columns as they are in a real table in the database. 
+We can create a view by selecting fields from one or more real tables present in the database.
+A View can either have all the rows of a table or specific rows based on certain condition.
+
+Syntax:
+*******
+CREATE VIEW view_name AS
+SELECT column1, column2.....
+FROM table_name
+WHERE condition;
+
+Examples:
+*********
+
+Creating View from a single table
+*********************************
+CREATE VIEW DetailsView AS
+SELECT NAME, ADDRESS
+FROM StudentDetails
+WHERE S_ID < 5;
+
+SELECT * FROM DetailsView;
+
+Creating View from multiple tables:
+*********************************
+
+CREATE VIEW MarksView AS
+SELECT StudentDetails.NAME, StudentDetails.ADDRESS, StudentMarks.MARKS
+FROM StudentDetails, StudentMarks
+WHERE StudentDetails.NAME = StudentMarks.NAME;
+
+SELECT * FROM MarksView;
+
+DELETING VIEWS  ---  
+**************
+Syntax:
+******
+DROP VIEW view_name;
+
+EXAMPLE:
+********
+
+DROP VIEW MarksView;
+
+
+
+UPDATING VIEWS
+**************
+
+Syntax:
+*******
+CREATE OR REPLACE VIEW view_name AS
+SELECT column1,coulmn2,..
+FROM table_name
+WHERE condition;
+
+CREATE OR REPLACE VIEW MarksView AS
+SELECT StudentDetails.NAME, StudentDetails.ADDRESS, StudentMarks.MARKS, StudentMarks.AGE
+FROM StudentDetails, StudentMarks
+WHERE StudentDetails.NAME = StudentMarks.NAME;
+
+Inserting a row in a view
+*************************
+INSERT INTO view_name(column1, column2 , column3,..) 
+VALUES(value1, value2, value3..);
+
+INSERT INTO DetailsView(NAME, ADDRESS)
+VALUES("Suresh","Gurgaon");
+
+Deleting a row from a View
+**************************
+DELETE FROM view_name
+WHERE condition;
+
+DELETE FROM DetailsView
+WHERE NAME="Suresh";
+
+
+WITH CHECK OPTION
+*****************
+
+CREATE VIEW SampleView AS
+SELECT S_ID, NAME
+FROM  StudentDetails
+WHERE NAME IS NOT NULL
+WITH CHECK OPTION;
+
+Uses of a View :
+****************
+
+1.Restricting data access –
+Views provide an additional level of table security by restricting access to a predetermined set of rows and columns of a table.
+
+2.Hiding data complexity –
+A view can hide the complexity that exists in a multiple table join.
+
+3.Simplify commands for the user –
+Views allows the user to select information from multiple tables without requiring the users to actually know how to perform a join.
+
+4.Store complex queries –
+Views can be used to store complex queries.
+
+5.Rename Columns –
+Views can also be used to rename the columns without affecting the base tables provided the number of columns in view must match the number of columns specified in select statement. Thus, renaming helps to to hide the names of the columns of the base tables.
+
+6.Multiple view facility –
+Different views can be created on the same table for different users.
+
+
+
+Materialized View 1m
+******************
+a materialized view is a database object that contains the results of a query. ... 
+Whenever a query or an update addresses an ordinary view's virtual table,
+the DBMS converts these into queries or updates against the underlying base tables.
+
+
+The basic difference between View and Materialized View is that Views are not stored physically on the disk. ... 
+View can be defined as a virtual table created as a result of the query expression. 
+However, Materialized View is a physical copy, picture or snapshot of the base table.

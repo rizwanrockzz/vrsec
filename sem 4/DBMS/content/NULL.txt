@@ -1,0 +1,28 @@
+NULL VALUES :
+*************
+
+The SQL NULL is the term used to represent a missing value. 
+A NULL value in a table is a value in a field that appears to be blank.
+
+A field with a NULL value is a field with no value. 
+It is very important to understand that a NULL value is different than a zero value or a field that contains spaces.
+
+EXAMPLES :
+**********
+CREATE TABLE STUDENT(ROLLNO INT NOT NULL,
+NAME VARCHAR(100)NULL);
+
+insert into student values(1,NULL);
+insert into student(rollno)values(2);
+
+
+How to test for NULL Values?  IS and IS NOT
+**************************** 
+SELECT Fname, Lname FROM Employee WHERE Super_ssn IS NULL;
+SELECT Fname, Lname FROM Employee WHERE Super_ssn IS NOT NULL;
+
+
+
+Operations with a NULL
+**********************
+SELECT empid,(salary + IFNULL(comm, 0)) total_sal FROM emp;

@@ -1,0 +1,13 @@
+DBMS 1M Questions
+*****************
+What is Timestamp ? 
+Compare binary locks with shared locks.
+What is partial key?
+Why SQL is considered as non-procedural language?
+What is UNDO operation in recovery process?
+What is dangling tuple in SQL?
+What is a materializaed view?
+What is an Active database?
+What is a trigger?
+DIfference between Procedural and non Procedural DML.
+What's an outer join?

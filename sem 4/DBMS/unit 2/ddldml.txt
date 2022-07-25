@@ -1,0 +1,65 @@
+DDL COMMANDS ::  DATA DEFINITION LANGUAGE
+
+CREATE,ALTER,DROP
+
+CREATE -- DATABASE
+          RELATIONS(TABLES)
+
+ALTER  -- ADD --  ADD A NEW COLUMNS
+          MODIFY -- MODIFY THE COLUMNS datatype and size
+          DROP   -- DROP A COLUMNS
+          CHANGE -- CHANGE THE COLUMN NAME
+          RENAME --  RENAME THE TABLE NAMES
+
+alter table tablename add columnname datatype(size);
+alter table student1  add aadhar varchar(10);
+
+alter table tablename modify columnname datatype(size);
+alter table student1 modify aadhar int;
+
+alter table tablename drop columnname;
+alter table stduent1 drop aadhar;
+
+alter table tablename change existingcolumnname newcolumnname datatype(size);
+alter table student1 change address residence varchar(20);
+
+alter table tablename rename newtablename;
+alter table student1 rename student2;
+
+drop --  tables
+         database
+
+drop table tablename;
+drop table student2;
+
+drop database databasename;
+drop database student;
+
+ITS WORKS ON TABLE OR DATABASE STRUCTURE
+**********************************************************
+
+DML COMMANDS : DATA MANIPULATION LANGUAGE
+
+INSERT,UPDATE ,DELETE 
+
+INSERT ---  INSERT DATA INTO TABLES
+
+UPDATE --   UPDATE TABLE DATA
+
+DELETE --   DELETE TABLE DATA..
+
+ITS WORKS ON TABLE DATA
+
+INSERT ---  
+
+UPDATE --   
+
+update tablename set columnname='value';
+
+update student set sno='2';
+
+   single column,multiple columns and particular columns
+
+delete --  tables
+          delete from tablename;
+          delete from student;

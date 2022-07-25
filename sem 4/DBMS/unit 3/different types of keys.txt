@@ -1,0 +1,51 @@
+different types of keys in dbms    
+*******************************
+
+rollno  name  phone#
+ 1      ram  99122
+ 2      ram  99123
+ 3      xyz  99124
+
+
+
+super key  :  The set of attributes which can uniquely identified a tuple(record)
+********* 
+is known as super key..not implemented practicaly..it is a concept..
+
+rollno  - 		super key
+phone # - 		super key
+rollno ,name    	super key
+phone #,name    	super key
+rollno,name,phone #	super key 
+rollno,phone #          super key
+
+candidate key : 
+*************
+The minimal set of attributes which can uniquely identified a tuple(record)
+is known as candidate key..not implemented practicaly..it is a concept..
+
+every candidate key is a super key..
+
+rollno  - 		candidate key
+phone # - 		candidate key
+
+Primary key :  
+*************
+
+There can be more than one candidate keys in a relation out of 
+which one can be choose as primary key..implemented practicaly..
+
+rollno  - 		primary key
+
+Alternate key :
+***************
+The candidate key other than the primary key is known as alternate key..
+not implemented practicaly..it is a concept..
+
+phone # - 		Alternate key
+
+foreign key or reference key :
+******************************
+
+
+

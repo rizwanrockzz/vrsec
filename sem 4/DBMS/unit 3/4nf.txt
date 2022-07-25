@@ -1,0 +1,52 @@
+4nf (fourth normal form)
+************************
+1.it is in bcnf 
+2.no multivalued dependency
+
+before 4nf
+**********
+
+Example: Suppose there is a bike manufacturer company
+which produces two colors(white and black) of each model every year.
+
+BIKE_MODEL	MANUF_YEAR	COLOR
+M2011		2008		White
+M2001		2008		Black
+M3001		2013		White
+M3001		2013		Black
+M4006		2017		White
+M4006		2017		Black
+
+
+Here columns COLOR and MANUF_YEAR are dependent on BIKE_MODEL and independent of each other.
+
+In this case, these two columns can be called as multivalued dependent on BIKE_MODEL. 
+The representation of these dependencies is shown below:
+
+BIKE_MODEL   →  →  MANUF_YEAR  
+BIKE_MODEL   →  →  COLOR  
+This can be read as "BIKE_MODEL multidetermined MANUF_YEAR" and "BIKE_MODEL multidetermined COLOR".
+
+
+After 4nf
+**********
+
+BIKE_MODEL	MANUF_YEAR	
+M2011		2008		
+M2001		2008		
+M3001		2013		
+M4006		2017		
+
+BIKE_MODEL	COLOR
+M2011		White
+M2001		Black
+M3001		White
+M3001		Black
+M4006		White
+M4006		Black
+
+
+
+
+
+

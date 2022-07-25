@@ -1,0 +1,45 @@
+what are the problems caused by Redundancy
+(or)
+What are the Anomalies in DBMS
+
+
+
+Anomalies are problems that can occur in un-normalised databases.
+
+
+e_id
+	e_name	e_address	e_dept(not null)
+101	Ramesh	Guntur		D001
+101	Ramesh	Guntur		D002
+123	kalyan	Vizag		D890  
+166	Nandu	Krishna		D900
+166	Nandu	Krishna		D004
+
+
+There are different types of anomalies
+
+Redundant storage: Some information is stored repeatedly.
+
+Update anomalies: If one copy of such repeated data is updated, an
+inconsistency is created unless all copies are similarly updated.
+
+Insertion anomalies: It may not be possible to store some information unless
+some other information is stored as well.
+
+Deletion anomalies: It may not be possible to delete some information without
+losing some other information as well.
+
+
+
+e_id   e_name  e_address     
+101	Ramesh	Guntur
+167     Ramesh	Guntur
+123	kalyan	Vizag	
+166	Nandu	Krishna
+b6	mana    krishna
+
+e_id   e_dept
+101    D001
+101    D002
+166    D900
+166    D004

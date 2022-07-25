@@ -1,0 +1,66 @@
+decomposition :
+*************
+The process of breaking up or dividing a single relation into two or more sub relations is
+called as decomposition. 
+
+
+
+properties:
+***********
+1. Lossless Decomposition
+2. Dependency Preservation Decomposition
+
+1. Lossless Decomposition
+Decomposition must be lossless. It means that the information should not get lost 
+from the relation that is decomposed.
+It gives a guarantee that the join will result in the same relation as it was decomposed.
+
+Example: <Employee_Department> Table
+
+Eid	Ename	Age	City	Salary	Deptid	DeptName
+E001	ABC	29	Pune	20000	D001	Finance
+E002	PQR	30	Pune	30000	D002	Production
+E003	LMN	25	Mumbai	5000	D003	Sales
+E004	XYZ	24	Mumbai	4000	D004	Marketing
+E005	STU	32	Bangalore25000	D005	Human Resource
+
+Relation 1 : <Employee> Table
+
+Eid	Ename	Age	City	Salary
+E001	ABC	29	Pune	20000
+E002	PQR	30	Pune	30000
+E003	LMN	25	Mumbai	5000
+E004	XYZ	24	Mumbai	4000
+E005	STU	32	Bangalore25000
+
+Relation 2 : <Department> Table
+
+Deptid	Eid	DeptName
+D001	E001	Finance
+D002	E002	Production
+D003	E003	Sales
+D004	E004	Marketing
+D005	E005	Human Resource
+
+Employee ⋈ Department
+
+Eid	Ename	Age	City	Salary	Deptid	DeptName
+E001	ABC	29	Pune	20000	D001	Finance
+E002	PQR	30	Pune	30000	D002	Production
+E003	LMN	25	Mumbai	5000	D003	Sales
+E004	XYZ	24	Mumbai	4000	D004	Marketing
+E005	STU	32	Bangalore25000	D005	Human Resource
+
+
+2. Dependency Preservation
+**************************
+Dependency is an important constraint on the database.
+Every dependency must be satisfied by at least one decomposed table.
+
+Types of Decomposition-
+**********************
+1. Lossless Join Decomposition-
+2. Lossy Join Decomposition-
+
+
+

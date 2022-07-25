@@ -1,0 +1,89 @@
+unit -3 chapter-2
+
+placements + gate exams + job ---
+normalization 
+*************
+*definition of normalization
+*different types of normal forms
+1nf,2nf,3nf,bcnf,4nf
+*functional dependencies
+*properties of decomposition
+*multi valued dependencies
+*problem ... find out solution
+
+
+redundancy --- duplication  
+
+
+definition of normalization-
+***************************
+Normalization is the process of organizing the data in the database.
+Normalization is used to minimize the redundancy from a relation or set of relations. 
+It is also used to eliminate the undesirable characteristics like Insertion, Update and Deletion Anomalies.
+Normalization divides the larger table into the smaller table and links them using relationship.
+
+definition of normal forms
+***************************
+it contains a set of rules.it is used to minimize redundancy and eliminate insert anomalies,
+update anomalies and delete anomalies. 
+
+1nf -  A relation is in 1NF it follow below three rules
+
+1.each table must contain primary key.
+2.each column must contain atomic value. (single value)
+3.there is no repeating group
+
+
+example :-- before 1nf
+
+student    not 1nf  
+*******
+rollno       -   198w1a12a1   atomic
+name         -   pravallika   atomic
+subject1 code    17it3401     atomic
+subject1 marks     90         atomic 
+subject2 code    17it3402     atomic 
+subject2 marks    100         atomic 
+subject 2 code   17it3403     atomic
+subject3 marks     67         atomic 
+phone number     9912267567,9912346777   //not atomic 
+
+
+
+example :-- After 1nf
+
+rollno(p) name   198w1a12a1 pravallika    1nf
+
+
+rollno     subjectcode mark      (rollno,subjectcode) composite primary key
+198w1a12a1 17it3401    90     
+198w1a12a1 17it3402    100   
+198w1a12a1 17it3403    67                    1nf
+198w1a12a2 17it3401    76 
+
+
+rollno       phone#                     (rollno,phone #) composite 
+198w1a12a1  9912267567                    1nf 
+198w1a12a1  9912346777      
+
+
+rollno phone1 phone2 phone3   //repeating groups
+1       23    34    35
+
+rollno phone#   //
+1      23
+1      34
+1      35
+
+****************************************************************
+
+rollno email1 email2 email3  repeating groups
+
+rollno email  //no repeating groups
+
+1      1,2,3 //not atomic values
+
+
+
+
+

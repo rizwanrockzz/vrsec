@@ -1,0 +1,20 @@
+normalization
+*************
+normalization definition
+normal form definition
+anomalies(redundancy,upddate,insertand delete anomalies)
+different types of keys
+1nf
+2nf
+3nf
+bcnf
+4nf
+multivalued dependency
+transitive dependency
+functional dependency(trival and non trival)
+difference between 3nf and bcnf 
+decomposition and properties
+problem --- practice 
+
+
+

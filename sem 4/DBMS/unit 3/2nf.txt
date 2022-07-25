@@ -1,0 +1,66 @@
+second normal form (2nf)
+************************
+A relation is in 2nf it must be follow the below rules
+
+1.it is in 1nf
+2.every non key attribute is fully dependend on key(prime)attribute.
+
+           key attribute  (prime attribute)
+           non key attribute  (non prime attribute)
+
+student
+*******
+rollno name address
+
+key attribute --  it contain a primary key
+rollno 
+
+non key attribute --  it doesnot contain a primary key
+name ,address 
+
+
+before 2nf :
+***********
+rollno  projectid  name  address  pname
+1         10        a      vij     dbms
+1         11        a      vij     php
+2         10        b      vij     dbms
+
+key attributes --  rollno,projectid
+
+non key attributes --name,address,pname
+
+name ->rollno (partial dependency)
+address->rollno (partial dependency)
+pname->projectid (partial dependency)
+
+after 2nf
+*********
+1.rollno name address  (2nf)
+
+
+key attributes --  rollno
+non key attributes --name,address
+name ->rollno (fully dependency)
+address->rollno (fully dependency)
+
+
+2. projectid pname (2nf)
+ 10        dbms            
+ 11         php        
+
+key attributes --  projectid
+non key attributes --pname
+
+3.rollno projectid (2nf) 
+   1     10
+   1     11
+   2     10
+
+ key attributes --  rollno,projectid
+ non key attributes --
+
+
+
+
+

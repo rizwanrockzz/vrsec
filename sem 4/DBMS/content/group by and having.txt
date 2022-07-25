@@ -1,0 +1,72 @@
+SQL GROUP BY Clause
+*******************
+The GROUP BY clause groups records into summary rows.
+It returns one record for each group.
+GROUP BY often include aggregates: COUNT, MAX, SUM, AVG,MIN etc.
+A GROUP BY clause can group by one or more columns.
+
+syntax
+-----
+SELECT column-names
+  FROM table-name
+ WHERE condition
+ GROUP BY column-names
+
+SELECT column-names
+  FROM table-name
+ WHERE condition
+ GROUP BY column-names
+ ORDER BY column-names
+
+CUSTOMER: Id FirstName LastName City Country Phone
+
+SELECT COUNT(Id), Country 
+  FROM Customer
+ GROUP BY Country
+
+
+output:-
+********
+3	Argentina
+2	Austria
+2	Belgium
+9	Brazil
+3	Canada
+
+
+SQL HAVING Clause
+******************
+The HAVING clause is like WHERE but operates on grouped records returned by a GROUP BY.
+HAVING applies to summarized group records, whereas WHERE applies to individual records.
+HAVING requires that a GROUP BY clause is present.
+Both WHERE and HAVING can be used in the same query at the same time.
+
+
+syntax
+******
+SELECT column-names
+  FROM table-name
+ WHERE condition
+ GROUP BY column-names
+HAVING condition
+
+
+SELECT column-names
+  FROM table-name
+ WHERE condition
+ GROUP BY column-names
+HAVING condition
+ ORDER BY column-names
+
+SELECT COUNT(Id), Country 
+  FROM Customer
+ GROUP BY Country
+HAVING COUNT(Id) > 10
+
+output:-
+********
+11	France
+11	Germany
+13	USA
+
+
