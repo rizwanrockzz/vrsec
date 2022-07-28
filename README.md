@@ -1,2 +1,2 @@
-# vrsec
+# VRSEC
 Finished semester files and stuff
