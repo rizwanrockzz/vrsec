@@ -1,0 +1,30 @@
+rank *
+coin_name *
+key
+alltime_highest_price *
+alltime_lowest_price *
+total_supply *
+creator
+released_date *
+purpose *
+
+insert into crypto_chain values(1,"Bitcoin","BTC","21,000,000","5,128,383","3,993.42","2009-01-03","Satoshi Nakamoto","A way to send and recieve money directly");
+
+
+font-family: 'Kdam Thmor Pro', sans-serif;
+letter-spacing: 2px;
+
+        body {
+            background: #ef32d9;
+            background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+            background: linear-gradient(to right, #89fffd, #ef32d9);
+        }
+
+
+hi hello vanakam i have made changes here locally and now trying to update this using commit
+
+okkk
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../allstyle.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+        body {
+            background: #00F260;
+            /* #00F260 */
+            background: -webkit-linear-gradient(to right, #0575E6, #00f261b0);
+            background: linear-gradient(to right, #0575E6, #00f261b0);
+        }
+
+        .grid-wrap {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 2fr 1fr;
+            height: 100vh;
+        }
+
+        .hero img {
+            width: 16rem;
+        }
+
+        .heading h1 {
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            /* font-weight: 500; */
+            letter-spacing: 2px;
+            color: white;
+            /* position: relative; */
+            font-size: 2.2rem;
+        }
+
+        .flex-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        .rizwan {
+            border-radius: 50%;
+            width: 5rem;
+        }
+
+        .roll99 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-wrap">
+        <div class="hero animate__animated animate__backInLeft">
+            <img src="../images/btc.png" alt="btc">
+        </div>
+        <div class="heading animate__animated animate__tada">
+            <h1>crypto currency database</h1>
+        </div>
+        <div class="self-image">
+            <div class="flex-box animate__animated animate__backInRight">
+                <img src="../images/rizwan.jpeg" class="rizwan">
+                <p>MD <span class="roll99">RIZWAN</span>ULLAH</p>
+                <p>208W1A1<span class="roll99">299</span></p>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
