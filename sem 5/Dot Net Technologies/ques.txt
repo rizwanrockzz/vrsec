@@ -1,0 +1,17 @@
+Unit - 1 :
+
+Type Safety
+.Net Architecture
+CLR Topic
+Inheritance
+Virtual, Abstract Classes
+Constructors, Indexers, Properties, Static keyword
+
+overload indexers : https://www.pluralsight.com/guides/overload-indexers-csharp
+
+====================================================================
+
+Unit - 2:
+
+Delegates, Multi cast delegates, Instant and static Methods
+Event, Lambda Epressions
