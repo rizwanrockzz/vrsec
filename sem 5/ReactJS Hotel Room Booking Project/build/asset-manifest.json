@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.017ca915.css",
+    "main.js": "/static/js/main.e9c5fab6.js",
+    "static/media/logo-vrsec-3.png": "/static/media/logo-vrsec-3.06f81bfd45b68c3633c7.png",
+    "index.html": "/index.html",
+    "main.017ca915.css.map": "/static/css/main.017ca915.css.map",
+    "main.e9c5fab6.js.map": "/static/js/main.e9c5fab6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.017ca915.css",
+    "static/js/main.e9c5fab6.js"
+  ]
+}
