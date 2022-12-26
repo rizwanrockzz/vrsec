@@ -1,0 +1,14 @@
+Google scholar
+pubmed 
+
+science direct
+refseek
+
+research papers: 20 21 22
+topic : deep learning
+
+https://omdena.com/blog/deep-learning-project-ideas/
+
+-Route Optimization for Logistics Industry – Omdena 
+-Lung Cancer Detection – 12 Sigma 
+-Driver Drowsiness Detection 
