@@ -1,0 +1,33 @@
+## Orders: custid, itemid, itemname, orderdate, deliverydate
+## Customers: custid, custname, address, city, state, country
+
+orders = LOAD 'hdfs://localhost:9000/pig_data/customers.txt' USING PigStorage(',') as (custid:int,itemid:int, itemname:chararray, orderdate:chararray, deliverydate:chararray);
+
+customers = LOAD 'hdfs://localhost:9000/pig_data/customers.txt' USING PigStorage(',') as (custid:int, custname:chararray, address:chararray, city:chararray,state:chararray,country:chararray,);
+  
+customer_orders = JOIN customers BY custid, orders BY custid;
+Dump coustomer_orders;
+
+filter_data = FILTER customer_orders BY orderdate == 'Oct 2020';
+
+customer_orders_group_all = Group filter_data All;
+
+orders_count = foreach customer_orders_group_all  Generate COUNT(filter_data.orderdate);
+
+Dump orders_count; // display
+
+
+// example join data
+
+(2,Khilan,25,Delhi,1500,101,2009-11-20 00:00:00,2,1560)
+(3,kaushik,23,Kota,2000,100,2009-10-08 00:00:00,3,1500)
+(3,kaushik,23,Kota,2000,102,2009-10-08 00:00:00,3,3000)
+(4,Chaitali,25,Mumbai,6500,103,2008-05-20 00:00:00,4,2060)
+
+
+// example of group data
+
+(all,{(8,Bharathi,Nambiayar,24,9848022333,Chennai,72),
+(7,Komal,Nayak,24,9848022 334,trivendram,83),
+(6,Archana,Mishra,23,9848022335,Chennai,87),
+(5,Trupthi,Mohan thy,23,9848022336,Bhuwaneshwar,75)})
