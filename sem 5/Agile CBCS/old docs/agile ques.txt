@@ -1,0 +1,7 @@
+Assignment - 2 Questions:
+1.Elaborate in product size and burn down of the large project
+2.Justify the statement with an example: “ The process quality is more important than product quality.”
+3.With a case study explain how an agile team member should manage his role?
+4.Differentiate the types of pulses and elaborate on the  risks involved with the pulse?
+5.How are the measures taken?
+6.List the steps to define a Measure.
