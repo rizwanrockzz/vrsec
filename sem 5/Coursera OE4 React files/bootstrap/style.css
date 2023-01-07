@@ -1,0 +1,126 @@
+.nav-bar-nav {
+    --bs-nav-link-color: white !important;
+    --bs-nav-link-hover-color: white !important;
+}
+
+/*  */
+.bg-light {
+    background-color: #5133a5 !important;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.dull {
+    opacity: 0.75 !important;
+}
+
+.dull:hover {
+    opacity: 1 !important;
+}
+
+.fa-solid {
+    font-weight: 600;
+    color: white;
+}
+
+.hero-section {
+    padding: 3rem;
+    background-color: #9477cb;
+    color: white;
+    /* margin-left: 0 !important; */
+    /* margin-right: 0 !important; */
+}
+
+.make-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cap-heading {
+    text-transform: capitalize;
+}
+
+.border-margin {
+    padding: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+.media-section {
+    padding: 3rem;
+}
+
+.text-center a {
+    padding: 0 3px;
+}
+
+.fa-square-google-plus {
+    color: #db4a39;
+}
+
+.fa-square-facebook {
+    color: #3b5998;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-square-twitter {
+    color: #00acee;
+}
+
+.fa-youtube {
+    color: #c4302b;
+}
+
+.fa-envelope {
+    color: blue;
+}
+
+.fa-brands,
+.fa-regular {
+    font-size: 30px;
+}
+
+footer {
+    background: #d1c4e9;
+    padding: 1rem;
+}
+
+.container-fluid {
+    justify-content: start !important;
+}
+
+/* carousel */
+.carousel-item img {
+    width: 230px !important;
+    height: 230px !important;
+}
+
+.carousel {
+    background: purple;
+}
+
+.modal-body,.modal-title{
+    color: black ;
+}
+
+.login-sec span a{
+    color: white !important;
+    text-decoration: none;
+}
