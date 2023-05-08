@@ -1,0 +1,26 @@
+unit -2 syllabus content
+*************************
+1.web application frame work --ajax(client),phython django (server)
+2.web application  sample example-- google app
+
+3.web api --- Google Gadgets ,. GoGrid ,apex
+
+
+4.protocols --  
+http xmpp ---communication protocols
+  ssl      --security protocol 
+  openID   
+
+5.web services --   json soap rest
+
+
+6.Cloud storage providers Amazon S3,MobileMe,LiveMesh and Google BigTable DataStore
+
+************************* end *************************
+
+
+           
+
+
+
+

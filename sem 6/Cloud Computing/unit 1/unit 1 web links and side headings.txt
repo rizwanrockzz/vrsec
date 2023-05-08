@@ -1,0 +1,79 @@
+unit 1
+
+-- why use cloud computing
+
+-https://www.ibm.com/cloud/blog/top-7-most-common-uses-of-cloud-computing
+
+1. Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS)
+2. Software-as-a-Service (SaaS)
+3. Hybrid cloud and multicloud
+4. Test and development
+5. Big data analytics
+6. Cloud storage
+7. Disaster recovery and data backup
+
+
+
+
+-- When you should not use  cloud computing
+
+https://geek911.com/reasons-not-move-cloud/
+
+1. Less Control Over Your Data’s Security
+2. You’ve Got to Have Good Internet
+3. You’re Locked into a Subscription Model
+4. If It’s Not Broke, Don’t Fix It
+5. Extra Vendors to Deal With
+6. Cloud-Based Services are Hacker Targets
+7. Long-Term Costs of Cloud Computing are Higher
+8. Certain Applications Run Better on a Local Server
+9. Where in the World is My Data?
+10. You Can’t Control Reliability
+
+
+
+-- Grid Vs CLoud Computing
+
+https://www.geeksforgeeks.org/difference-between-cloud-computing-and-grid-computing/#article-meta-div
+
+
+
+-- Full Vs Para Virtualization
+
+https://www.geeksforgeeks.org/difference-between-full-virtualization-and-paravirtualization/
+
+
+
+-- Cloud services
+
+https://www.geeksforgeeks.org/cloud-based-services/
+
+
+
+-- Advantages and disadvantages of cloud computing
+
+https://www.javatpoint.com/advantages-and-disadvantages-of-cloud-computing
+
+
+
+-- cloud computing architecture
+
+https://www.javatpoint.com/cloud-computing-architecture
+
+https://www.youtube.com/watch?v=TNt0TlSEIRg
+
+
+
+-- thin clients
+
+https://www.youtube.com/watch?v=VkeOpmcMzL0
+
+
+
+
+
+
+
+
+
+

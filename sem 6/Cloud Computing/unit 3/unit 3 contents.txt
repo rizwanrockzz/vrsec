@@ -1,0 +1,22 @@
+unit -3 syllabus content
+*************************
+
+Chapter 1& 3: Software as a service , Developing Applications
+
+1. Software as a service overview & Diagram ,Example & Diagram   
+2. Advantages or Pros or Features of Software as a service
+3. Limitations or Disadvantages or Cros of Software as a service
+4. Driving Forces of Software as a service
+5. Company Offerings providers – Intuit, Google, Microsoft
+  
+Chapter 2: Software plus service
+
+1. Software plus services overview & Diagram ,Example & Diagram ,Differences    
+2. Advantages or Pros or Features of Software plus service
+3. Limitations or Disadvantages or Cros of Software plus service
+4. Software plus vendors & services
+5. Mobile Device Integration - Google Android
+6. providers : Adobe AIR & Microsoft Online
+
+
+
