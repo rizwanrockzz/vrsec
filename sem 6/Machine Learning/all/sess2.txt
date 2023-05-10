@@ -1,0 +1,24 @@
+Unit 3
+1. Distance based models- knn,k-means
+2. Problem on k-means
+3. What is Bayes theorem upto hmap derivation
+4. Bayes optimal classifier 
+5. Naive bias algorithm along with expressions problem also
+(2qns)
+
+Unit 4
+1. Feet forward
+2. Discuss in detail about Back propagation algorithm and differentiate between standard gradient descent and stocastic gradient descent and what is impact of learning gradient on society
+(1 qn)
+
+------------------------------------------
+
+https://www.youtube.com/watch?v=O2L2Uv9pdDA
+Naive bayes
+
+https://www.youtube.com/watch?v=0p0o5cmgLdE
+https://www.youtube.com/watch?v=CJjSPCslxqQ - 5min engg
+KNN
+
+https://www.youtube.com/watch?v=CLKW6uWJtTc
+KMeans
