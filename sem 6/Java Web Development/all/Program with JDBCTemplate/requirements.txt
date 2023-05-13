@@ -1,0 +1,12 @@
+Dependencies:
+
+H2 Database
+Spring Data JDBC
+
+
+In pom.xml include under <depndencies> tag
+<dependency>
+	<groupId>javax.annotation</groupId>
+	<artifactId>javax.annotation-api</artifactId>
+	<version>1.3.2</version>
+</dependency>

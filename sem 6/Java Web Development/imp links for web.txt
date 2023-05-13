@@ -1,0 +1,3 @@
+https://learnjava.co.in/the-springbootapplication-annotation-explained/
+
+https://www.geeksforgeeks.org/spring-boot-annotations/
