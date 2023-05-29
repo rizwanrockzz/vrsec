@@ -1,0 +1,1725 @@
+**You:**
+
+
+What is business Intelligenc
+------------------
+**ChatGPT:**
+
+
+Business Intelligence (BI) refers to the processes, technologies, and tools used to collect, analyze, and present data to support business decision-making. It involves gathering and transforming raw data into meaningful and actionable insights, which can be used by organizations to make informed strategic, tactical, and operational decisions.
+
+The goal of business intelligence is to provide a comprehensive view of an organization's data, enabling managers, executives, and other stakeholders to gain insights into various aspects of the business. By leveraging BI, companies can monitor key performance indicators (KPIs), track trends, identify opportunities, and address challenges more effectively.
+
+Business intelligence encompasses several activities, including:
+
+Data Collection: Gathering data from various sources, such as databases, applications, spreadsheets, and external systems.
+
+Data Integration: Combining data from different sources and transforming it into a unified format suitable for analysis.
+
+Data Analysis: Applying statistical and analytical techniques to identify patterns, relationships, and trends within the data. This process involves using tools like data mining, data visualization, and predictive modeling.
+
+Reporting and Dashboards: Presenting data in a visual and interactive manner through reports, charts, graphs, and dashboards. These visual representations make it easier for users to understand and interpret complex information.
+
+Querying and Ad hoc Analysis: Allowing users to explore and analyze data on-demand by querying databases or using self-service BI tools.
+
+Performance Monitoring: Continuously tracking KPIs and monitoring business performance against predefined goals or benchmarks.
+
+Data Warehousing: Storing large volumes of structured and organized data in a central repository (data warehouse) to facilitate reporting and analysis.
+
+Data Governance and Security: Ensuring data accuracy, consistency, and security through proper governance practices, data quality controls, and access controls.
+
+Business intelligence is widely used across industries to support decision-making processes related to areas such as sales and marketing, finance, operations, supply chain management, and customer relationship management. The insights derived from BI can guide strategic planning, improve operational efficiency, enhance customer satisfaction, and drive overall business performance.
+------------------
+**You:**
+
+
+for this question Define BI and what is the need of Business Intelligence below is the answer/solution summerize me
+
+What drives the desire for instituting a BI program? And more to the point, what are
+the primary drivers for business analytics and how can the benefits be effectively
+communicated to the important organizational stakeholders?
+A straightforward approach for considering the value of a BI program looks at
+business processes, their source of derived or generated value, performance
+measures, and where the absence of knowledge impedes the complete achievement of business success. By categorizing dimensions of business value, we can
+then evaluate the ways that BI can contribute to increased performance along those dimensions. A high-level overview suggests at least these dimensions of
+value:
+n Financial value associated with increased profitability, whether derived from lowered costs or increased revenues;
+n Productivity value associated with increased throughput with decreased workloads,
+diminished time for executing end-to-end processes (such as manufacturing or
+operational workflows), and increasing the percentage of high quality products
+or outcomes;
+n Trust value, such as greater customer, employee, or supplier satisfaction, as well
+as increasing confidence in forecasting, maintaining consistent operational and
+management reports, reductions in time spent in ‘‘analysis paralysis,’’ and better
+results from decisions; and
+n Risk value associated with improved visibility into credit exposure, confidence in
+capital and asset investments, and auditable compliance with jurisdictional and
+industry standards and regulations.
+Of course, there are many other benefits to building a BI practice within an
+organization. Some benefits are focused on the ability to answer what might be
+considered the most basic questions about how a company does business. For
+example, it is surprising how few senior managers within a company can answer
+simple questions about their business, such as:
+n How many employees do you have?
+n For each product, how many were sold over the last 12 months within each
+geographic region?
+n Who are your 10 best customers?
+n What is the value of any particular customer?
+n Who are your 20 best suppliers?
+What is even more interesting is that in some organizations, not only can we not
+answerthese questions, there may not even be a framework in which someone can even
+ask these questions. There is a critical point to be made here: Starting a well-conceived
+and comprehensive BI program that engages both the technical practitioners and the
+business consumers will not just provide the physical tools for answering these kinds of
+questions, but, more importantly, should be a catalyst for changing the way team
+members think about doing business and about how information is a critical catalyst for
+closing the loop by taking action and measuring the outcomes of those actions.
+For example, before we can determine who the 20 best customers are, we must be
+able to articulate the difference between a ‘‘good’’ and a ‘‘bad’’ customer, as well as
+be able to identify a collection of metrics used to measure goodness, what data sets
+need to be collected for measurement, establish and integrate the methods for collecting and aggregating the data used for measuring, establish the processes required for conducting the measurement, ensure the quality of that data so as to not draw
+faulty conclusions, package the results into a reasonable report, and find a method to
+quickly and effectively disseminate the results of this process.
+Although a lot of this process may be automated using off-the-shelf technology,
+the most important part (i.e., asking the right question) needs input from individuals
+with expertise and a stake in the result. It again reinforces the need for supporting the
+growing utility of multipurposed data. Correspondingly, there is a growing
+community of individuals willing to consider data as a corporate asset that can be
+manipulated in different ways to derive benefit along the key value drivers.
+------------------
+**ChatGPT:**
+
+
+The primary drivers for instituting a Business Intelligence (BI) program and the benefits of business analytics can be effectively communicated to important organizational stakeholders through a comprehensive understanding of the value BI brings to the business. By categorizing dimensions of business value, it becomes easier to evaluate how BI can contribute to increased performance in those areas. Some key dimensions of value include:
+
+Financial value: BI can help increase profitability by identifying opportunities for cost reduction or revenue growth.
+
+Productivity value: BI enables increased throughput, decreased workloads, and improved quality, resulting in higher productivity and efficiency in business processes.
+
+Trust value: BI enhances customer, employee, and supplier satisfaction by providing accurate forecasting, consistent operational and management reports, and reducing time spent on analysis. It also leads to better decision-making and outcomes.
+
+Risk value: BI provides improved visibility into credit exposure, confidence in capital and asset investments, and ensures compliance with industry standards and regulations.
+
+In addition to these dimensions, there are other benefits of implementing a BI program. One crucial benefit is the ability to answer basic questions about the business. Many senior managers struggle to provide simple information about their company, such as the number of employees, product sales by region, top customers, or the value of specific customers. Establishing a BI program not only provides the tools to answer these questions but also changes the way team members think about doing business and leveraging information.
+
+Starting a comprehensive BI program involves engaging both technical practitioners and business consumers, creating a framework for asking and answering critical business questions. This process includes articulating the difference between good and bad customers, defining metrics for measurement, collecting and aggregating relevant data, ensuring data quality, generating reports, and disseminating results effectively. While technology can automate many aspects, the importance of asking the right questions and involving experts with a stake in the outcome remains crucial.
+
+The growing utility of multipurpose data and the recognition of data as a corporate asset further emphasize the need to support and leverage BI practices. By effectively communicating the benefits and value drivers of BI, organizations can gain support and commitment from stakeholders, driving successful implementation and utilization of business intelligence initiatives.
+------------------
+**You:**
+
+
+for this question
+
+What are the activities of BI or what are the reasons for the failure of any 
+Business? answer is below please summarizea and add relevant information to write a 7 marks question in exam
+
+The fact that you are reading this book implies that you are somehow involved in
+some aspect of BI. You may be just curious and looking to learn more, or you may be
+actively involved in some phase of a BI activity: the discovery phase, justification,
+analysis of requirements for design, creation, management, maintenance, or development of a BI program. And it may also be likely that somewhere within your
+corporate senior management hierarchy, there are individuals who have been
+convinced of the value of starting a BI program. Unfortunately, the disparate
+perceptions of what ‘‘business intelligence’’ means and how (or perhaps even ‘‘if’’)
+the knowledge derived through BI is to be employed can contribute to delays, stalls,
+and in some cases, overall program failure.
+As with any technology investment, when we look at organizations that have
+started implementing reporting engines, developing data warehouses, or have
+purchased large-scale data mining software suites without any program management,
+change agents, or business goals, we see high expectations and many disappointments
+related to the failure in the way that data warehouse projects are conceived, designed,
+architected, managed, and implemented, for any, if not all, of these reasons:
+n The amorphous understanding of what BI methods and products could do
+resulted in an absence of a proper perception of the value proposition on behalf
+of the business sponsor.
+n The absence of clear measures of success masked the value of specific milestones
+and deliverables.
+n A communications gap between the implementers and the end users prevented the
+integration of information requirements into the system development life cycle.
+n The scope of the project was not fully understood, causing delays in delivering to
+the business sponsor.
+n Insufficient technical training prevented developers from getting software products to do what the vendors said they do.
+n Attempting to incorporate many inconsistent data sources failed because of variance in formats, structures, and semantics.
+n Poor understanding of technology infrastructure led to poor planning and
+scheduling.
+n Business users were unable to trust results due to poor data quality.
+n The lack of a clear statement of success criteria, along with a lack of ways to
+measure program success, led to a perception of failure.
+The goal of this book is to provide a high-level overview of the technical (and
+some political) concepts for which a savvy manager must have awareness when
+involved in a BI or information exploitation project in order to make that project
+successful. The material is intended to cast interesting technology in an operational
+business framework while providing the introductory technical background and
+highlighting important topics such as:
+n Management issues
+n Managing change
+n Technical issues
+n Performance issues
+n Complexity
+This book will describe the basic architectural components of a BI environment,
+beginning with traditional topics, such as business process modeling and data
+modeling, and moving on to more modern topics, such as business rule systems, data
+profiling, information compliance and data quality, data warehousing, and data
+mining. My hope is that this will be a valuable introduction to the technology,
+management issues, and terminology of the BI industry. But first, let’s settle on
+a definition of business intelligence.
+------------------
+**ChatGPT:**
+
+
+The activities of Business Intelligence (BI) involve various phases and tasks aimed at gathering, analyzing, and utilizing data to support decision-making. Some key activities within BI include:
+
+Discovery Phase: This involves identifying the business objectives, understanding data sources, and determining the scope of the BI initiative.
+
+Justification: Assessing the potential value and benefits of implementing BI, including cost savings, revenue growth, improved efficiency, and better decision-making.
+
+Requirements Analysis: Identifying and analyzing the information needs of stakeholders, defining key performance indicators (KPIs), and determining data requirements for reporting and analysis.
+
+Design and Development: Creating the architecture, data models, and infrastructure necessary for data storage, extraction, transformation, and loading (ETL). Developing reports, dashboards, and analytical tools to present information to users.
+
+Management and Maintenance: Implementing processes to ensure the ongoing management, governance, and maintenance of data quality, security, and performance. This includes monitoring data sources, resolving issues, and updating and enhancing the BI system as needed.
+
+Communication and User Engagement: Ensuring effective communication and collaboration between the BI team and end-users to understand their requirements, provide training and support, and promote user adoption and engagement.
+
+Failure in BI initiatives can occur due to various reasons, such as:
+
+Lack of clear understanding of BI methods and value proposition by business sponsors, leading to unrealistic expectations and misalignment with business goals.
+
+Absence of clear success measures and milestones, making it difficult to demonstrate the value and progress of the BI project.
+
+Communication gaps between implementers and end-users, resulting in a disconnect between information requirements and system development.
+
+Incomplete understanding of the project scope, causing delays and difficulties in delivering results to the business sponsors.
+
+Insufficient technical training, hindering developers from effectively utilizing software tools and technologies.
+
+Challenges in integrating disparate and inconsistent data sources with varying formats, structures, and semantics.
+
+Inadequate planning and scheduling due to poor understanding of the technology infrastructure required for BI.
+
+Issues with data quality leading to a lack of trust in the results generated by the BI system.
+
+Absence of clear success criteria and measurement mechanisms, resulting in a perception of failure even if the BI project delivers value.
+
+In an exam, a potential 7-mark question could be:
+
+Discuss the activities involved in a Business Intelligence (BI) program and provide reasons for the failure of BI initiatives. Include key aspects such as the discovery phase, requirements analysis, design and development, management and maintenance, communication and user engagement. Additionally, explain the challenges and factors that contribute to the failure of BI initiatives, such as lack of understanding of BI methods, poor communication, incomplete scope definition, inadequate technical training, and data quality issues.
+------------------
+**You:**
+
+
+what are the reasons for the failure of any 
+Business
+------------------
+**ChatGPT:**
+
+
+The failure of a business can be attributed to various factors, both internal and external. Here are some common reasons for business failure:
+
+Lack of Market Demand: One of the primary reasons for business failure is a lack of sufficient market demand for the product or service being offered. If there is little or no demand for what the business is providing, it becomes challenging to generate revenue and sustain operations.
+
+Poor Planning and Strategy: Inadequate planning, including lack of a solid business plan, market research, and competitive analysis, can lead to poor decision-making and ineffective strategies. Without a clear direction and well-defined goals, a business may struggle to navigate the market successfully.
+
+Inadequate Financial Management: Poor financial management, such as insufficient capital, cash flow problems, high debt, or inadequate financial controls, can severely impact a business's viability. Without proper financial planning and oversight, a business may struggle to meet its financial obligations and sustain operations.
+
+Ineffective Leadership and Management: Incompetent or ineffective leadership can significantly contribute to business failure. Lack of vision, poor decision-making, inability to adapt to market changes, or ineffective management of resources and personnel can hinder a business's growth and success.
+
+Failure to Adapt to Market Changes: Markets are dynamic and constantly evolving. Businesses that fail to adapt to changing customer preferences, emerging technologies, industry trends, or competitive landscapes may become obsolete or lose their competitive edge.
+
+Strong Competition: Intense competition in the market can pose significant challenges for a business. If competitors offer better products, services, pricing, or customer experiences, a business may struggle to attract and retain customers, leading to failure.
+
+Operational Inefficiencies: Inefficient operations, including poor supply chain management, ineffective production processes, inadequate quality control, or high operational costs, can erode a business's profitability and competitiveness.
+
+Lack of Innovation and Differentiation: Businesses that fail to innovate or differentiate themselves from competitors may struggle to attract customers and create a unique value proposition. Stagnation and lack of innovation can lead to declining market share and ultimately business failure.
+
+Legal and Regulatory Issues: Non-compliance with laws, regulations, and industry standards can result in severe consequences for a business, including legal penalties, reputational damage, or loss of licenses and permits.
+
+External Factors: Economic downturns, changes in government policies, natural disasters, or unforeseen events like pandemics can significantly impact businesses, leading to their failure.
+
+It's important to note that these reasons for business failure are not exhaustive, and each business failure case may have unique contributing factors. Success in business requires careful planning, market analysis, effective management, financial prudence, adaptability, innovation, and the ability to navigate challenges effectively.
+------------------
+**You:**
+
+
+What are performance metrics and KPI (key performance indicator)
+------------------
+**ChatGPT:**
+
+
+Performance metrics and Key Performance Indicators (KPIs) are both used to measure and evaluate the performance and success of a business or specific processes within an organization. Here's a brief explanation of each:
+
+Performance Metrics:
+Performance metrics are quantitative measures used to assess various aspects of a business's performance. These metrics provide objective data and insights into different areas of the organization. Performance metrics can be financial or non-financial and may include data related to revenue, costs, productivity, customer satisfaction, quality, efficiency, and more. These metrics are used to track progress, identify trends, and make informed decisions to improve overall performance.
+
+Key Performance Indicators (KPIs):
+KPIs are a subset of performance metrics and represent specific metrics that are considered critical to the success of an organization or a specific objective. KPIs are typically tied to strategic goals and objectives and provide a clear indication of whether the organization is on track to achieve its desired outcomes. KPIs are typically defined, measurable, and time-bound, allowing for ongoing monitoring and evaluation of performance. They help align the efforts of individuals and teams with organizational goals and enable focused decision-making.
+
+KPIs vary across different industries and organizations depending on their specific objectives and priorities. For example, a retail business might use KPIs such as sales revenue, customer acquisition rate, customer retention rate, and average transaction value. A manufacturing company may focus on KPIs like production yield, on-time delivery, or product defect rate. In the field of customer service, KPIs could include average response time, customer satisfaction scores, or first-call resolution rate. The choice of KPIs depends on the strategic objectives and the areas of performance that are critical to the success of the organization.
+
+Overall, performance metrics provide a broad set of data for assessing performance, while KPIs narrow the focus to key areas of importance, enabling organizations to monitor progress, identify areas for improvement, and make data-driven decisions to drive success.
+------------------
+**You:**
+
+
+summarize
+
+Performance metrics measure how well we perform within a particular business
+context. A performance metric relates an objective ‘‘score’’ (with a specific unit of
+measures) within a subjective scale of success. As an example, we might have
+a measure of the number of calls handled by each call center representative per hour.
+The unit of measure is the ‘‘number of calls,’’ but this measure provides only an
+objective score, but does not provide any subjective insight. Assessing comparative
+performance means determining the expected number of calls to be handled per hour,
+as well as specific target goals. To continue the example, the expected number of
+calls to be handled is 10, while the target could be set at 15.
+In the best scenarios, performance metrics are associated with every business
+process. In turn, these performance metrics can be accumulated or aggregated into
+higher-level metrics that describe a broader view of corporate success. The highest
+level of metric is the key performance indicator (KPI), which is some objective
+measurement of an aspect of a business that is critical to the success of that business.
+KPIs can be collected together to provide a conceptual scorecard for a business
+and can be associated with a number of different business activities, especially
+within our four value driver areas such as financial value, productivity, risk, and trust.
+In fact a large number of KPIs can be defined in terms of measuring performance
+associated with many different BI analytical activities.
+Another conceptual value of BI is the ability to capture the business definitions of
+the key performance indicators, manage those definitions as part of the corporate
+knowledge base, and then provide a visualization dashboard that reflects those KPI
+measurements, presented in a form for management review. This BI dashboard
+displays the results of the analytics required to configure the KPIs in a succinct visual
+representation that can be understood instantaneously or selected for drill-down.
+A BI dashboard will not only provide real-time presentation of the selected KPIs, but
+will also hook directly into the BI components that allow for that drill-down.
+By looking at some sample performance metrics, we can become comfortable
+with engaging the business users to assess their query and reporting needs as well as
+determine the degree to which existing data sets can address those needs. And the
+categorization of business value drivers that has been presented earlier in this chapter
+supports the BI process by helping to clarify general business objectives and corresponding performance metrics and indicators.
+Improving the way the business is run as a result of integrating a BI framework
+goes beyond the technologydkey stakeholders must specify what their perception of
+‘‘performance’’ is, provide the performance measures, and then define achievable
+targets and use the tools to inform the decision-making processes. These measures
+are put in place to assess, measure, and control the degree to which the business
+objectives are being met. Specific programs can be designed and developed around
+improvements within any of these key categories. Consider these examples:
+n Revenue generation via customer profiling and targeted marketing. Business
+intelligence reports and analyses reflecting customer transactions and other interactions enable the development of individual customer profiles incorporating
+demographic, psychographic, and behavioral data about each individual to
+support customer community segmentation into a variety of clusters based on
+different attributes and corresponding values. These categories form the basis
+of sales and profitability measures by customer category, helping to increase sales
+efforts and customer satisfaction.
+n Risk management via identification of fraud, abuse, and leakage. Fraud, which
+includes intentional acts of deception with knowledge that the action or representation could result in an inappropriate gain, is often perpetrated through the
+exploitation of systemic scenarios. Fraud detection is a type of analysis that looks for
+prevalent types of patterns that appear with some degree of frequency within certain
+identified scenarios. Reporting of the ways that delivered products and services
+match what had been sold to customers (within the contexts of their contracts/agreements) may highlight areas of revenue leakage. Both of these risks can be analyzed
+and brought to the attention of the proper internal authorities for remediation.
+n Improved customer satisfaction via profiling, personalization, and customer
+lifetime value analysis. Customer lifetime value analysis calculates the measure
+of a customer’s profitability over the lifetime of the relationship, incorporating
+the costs associated with managing that relationship as well as the revenues
+expected from that customer. Employing the results of customer profiling can
+do more than just enhance that customer’s experience by customizing the presentation of material or content. Customer profiles can be directly integrated into all
+customer interactions, especially at inbound call centers, where customer profiles
+can improve a customer service representative’s ability to deal with the customer,
+expedite problem resolution, and perhaps even increase product and service sales.
+n Improved procurement and acquisition productivity through spend analysis.
+Spend analysis incorporates the collection, standardization, and categorization of
+product purchase and supplier data to select the most dependable vendors,
+streamline the RFP and procurement process, reduce costs, improve the predictability of high-value supply chains, and improve supply-chain predictability and
+efficiency.
+Each of these examples can be viewed in both the operational and the strategic
+business perspectives. The operational view provides insight into existing conditions
+and performance comparing existing activities to expectations. From the strategic
+perspective, we can evaluate the degree to which any potential measurements impact
+future corporate value.
+------------------
+**ChatGPT:**
+
+
+Performance metrics are objective measures used to evaluate the performance of a business or specific processes within an organization. They provide quantitative data and can be associated with every business process. These metrics can be aggregated into higher-level metrics known as Key Performance Indicators (KPIs). KPIs are critical to the success of the business and are often tied to strategic goals and objectives. They help track progress, align efforts with organizational goals, and enable focused decision-making.
+
+A BI framework plays a crucial role in capturing and managing the business definitions of KPIs. It allows for the visualization of KPI measurements through dashboards, providing a succinct visual representation that can be easily understood and drilled down into for further analysis. BI helps improve the way a business is run by specifying performance measures, defining achievable targets, and using the tools to inform decision-making processes.
+
+There are various areas where BI can drive improvements in business performance. For example, revenue generation can be enhanced through customer profiling and targeted marketing, identifying fraud and leakage can be improved through fraud detection and monitoring product and service delivery, customer satisfaction can be enhanced through customer profiling, personalization, and analysis of customer lifetime value, and procurement and acquisition productivity can be improved through spend analysis.
+
+These examples highlight how BI can impact both operational and strategic aspects of a business, providing insights into existing conditions and performance, as well as evaluating the potential impact on future corporate value. By leveraging performance metrics and KPIs within a BI framework, organizations can make data-driven decisions, optimize processes, and drive overall business success.
+------------------
+**You:**
+
+
+summarize with sub heading s and main content
+------------------
+**ChatGPT:**
+
+
+Performance Metrics and Key Performance Indicators (KPIs) in Business Intelligence
+
+Performance Metrics:
+
+Performance metrics measure performance within a specific business context.
+They provide objective scores related to specific units of measurement.
+However, they lack subjective insight and need to be compared to expected values and target goals.
+
+Key Performance Indicators (KPIs):
+
+KPIs are objective measurements critical to the success of a business.
+They represent higher-level metrics that aggregate performance metrics.
+KPIs are associated with different business activities and can be categorized into value drivers such as financial value, productivity, risk, and trust.
+
+Importance of BI Dashboard:
+
+BI enables capturing and managing business definitions of KPIs.
+BI dashboards provide visual representations of KPI measurements.
+Real-time presentation and drill-down capabilities enhance decision-making.
+
+Examples of BI Impact on Business Performance:
+
+Revenue Generation:
+Customer profiling and targeted marketing enhance sales efforts and customer satisfaction.
+Business intelligence reports and analyses support individual customer profiling.
+Risk Management:
+Fraud detection analyzes patterns to identify fraudulent activities.
+Reporting of product and service alignment with contracts helps prevent revenue leakage.
+Improved Customer Satisfaction:
+Customer lifetime value analysis calculates customer profitability over the relationship.
+Customer profiling and personalization enhance customer experience and increase sales.
+Improved Procurement and Acquisition Productivity:
+Spend analysis streamlines procurement processes, reduces costs, and improves supply chain efficiency.
+
+Operational and Strategic Perspectives:
+
+Operational view provides insights into existing performance and compares it to expectations.
+Strategic view evaluates the impact of measurements on future corporate value.
+
+By leveraging performance metrics and KPIs within a BI framework, organizations can make informed decisions, optimize processes, and drive overall business success.
+------------------
+**You:**
+
+
+summerize
+
+There is a lot of value to incorporating the analysis of BI in the context of
+locationdwhere your customers live, where they shop, what the closest warehouses
+to your retail locations are, and so on. Geographic data is largely available, and
+spatial analytics tools will provide creative visualization methods for extracting actionable knowledge from your data when it is enhanced with geographic data, as
+we will see in the next chapter.
+The informative power of integrated data sets is improved when demographic and
+psychographic attributes are combined with geographic ones. Certainly, a large
+source of geographic attribution data is the U.S. Census Bureau, which publishes the
+results of each 10-year census. This data details all sorts of demographic information
+about geographic regions as small as a census tract (on the order of a few thousand
+people).
+For example, consider the information displayed in Table 15.1, which is derived
+from data from the 2010 U.S. Census. When presented with a customer record whose
+address was located within census tract 7006.07, there is a high probability that the
+individual owns their own home (89.8% of the homes are owner-occupied), is likely
+to be carrying a mortgage (since only 13.1% of the homes are owned free and clear),
+and the homeowner is likely to be white (41.5%) or Asian (42.5%). The more
+information we have to enhance the customer record, the better position we are in to
+make these inferences.
+------------------
+**ChatGPT:**
+
+
+Incorporating geographic data into business intelligence (BI) analysis provides valuable insights. Spatial analytics tools offer creative visualization methods for extracting actionable knowledge from data enhanced with geographic information. Combining demographic, psychographic, and geographic attributes enhances the informative power of integrated data sets.
+
+The U.S. Census Bureau is a significant source of geographic attribution data, providing detailed demographic information about small geographic regions such as census tracts. For instance, data from the 2010 U.S. Census reveals insights about homeownership, mortgage status, and ethnic composition within a specific census tract (e.g., 7006.07). Utilizing this information, it becomes possible to infer characteristics of individuals, such as high homeownership rates (89.8% owner-occupied homes) and predominant ethnic backgrounds (41.5% white, 42.5% Asian), based on their addresses.
+
+By enriching customer records with additional information, organizations can make more accurate inferences and improve their decision-making processes. The integration of geographic data within BI analysis offers valuable opportunities for leveraging location-based insights.
+------------------
+**You:**
+
+
+summarize
+
+Census data can be used for more than the kind of attribution just described. Enhancing
+the census data itself with data from other sources can provide significant information
+about the kinds of people who live within a specific area. For example, let’s enhance
+our previous example and see what else we can learn about our customer.
+n We know that 82.3% of the households are owner occupied. By integrating
+average home sale prices over the last 5 years along with the average mortgage
+interest rates for the same time period, we can determine the average monthly
+mortgage payment a homeowner makes. Because mortgage brokers typically
+lend money as a function of a set of ratios of monthly debt to monthly salary,
+we can calculate an educated guess as to the average monthly salary of homeowners within the geographic area, which in turn can contribute to a geographic clustering profile.
+n If our customer record contains a business or daytime telephone number, we can
+locate where the customer works and then determine the distance between home
+and work.
+n By integrating this data with geographic data about transportation options between
+the two locations, we can also infer how the customer travels to work. By enhancing
+that with details of transportation schedules (which may also be available electronically), we can infer the length of time of the customer’s commute to work.
+For the most part, similar people tend to aggregate in the same areas (e.g., rich
+people live among other rich people); we can take advantage of this by purchasing
+------------------
+**ChatGPT:**
+
+
+Census data can be enhanced with additional data sources to gain significant insights into the characteristics of people living in a specific area. Beyond basic attribution, this enriched data can provide valuable information about customers. Here are some examples:
+
+By integrating average home sale prices and mortgage interest rates, we can calculate the average monthly mortgage payment for homeowners in a specific area. This information can help estimate the average monthly salary of homeowners, contributing to a geographic clustering profile.
+
+If a customer record includes a business or daytime telephone number, we can determine where the customer works and calculate the distance between their home and workplace.
+
+By incorporating transportation data and schedules, we can infer how the customer commutes to work and estimate the length of their commute.
+
+Since people with similar characteristics tend to reside in the same areas (e.g., affluent individuals living among other affluent people), organizations can take advantage of this knowledge by purchasing additional data sets to enhance their understanding of customer demographics and behavior. By leveraging these insights, businesses can make more informed decisions and tailor their strategies to specific customer segments.
+------------------
+**You:**
+
+
+summarize
+
+Customer behavior is also a somewhat fuzzily defined term; for our purposes let’s
+suggest that ‘‘customer behavior’’ models are intended to capture information about
+the actions a customer performs under specific circumstances.
+As an example, let’s say that a retail company emailed a special coupon for an instore purchase of a particular item. There are a number of specific circumstances
+associated with this scenario: the presentation of the offer, the method of presentation, the time at which the offer was presented, the time the customer took an action,
+the timeframe associated with the offer, a particular retail location. Given this
+scenario, the retailer can track customer actions in relation to the circumstancesdthe
+customer ignored the offer, or took advantage of it at some specific time and location.
+------------------
+**ChatGPT:**
+
+
+Customer behavior refers to the actions that customers take in specific circumstances. For instance, a retail company may send a special coupon via email for an in-store purchase. The circumstances surrounding this scenario include how the offer is presented, the timing of the offer, the customer's response time, the timeframe of the offer, and the specific retail location. The retailer can track customer behavior to see if customers ignore the offer or take advantage of it at a particular time and location. Understanding customer behavior helps businesses analyze the effectiveness of their marketing strategies and tailor their approaches to better meet customer preferences and needs.
+------------------
+**You:**
+
+
+summarize
+
+In essence, the initial objective of capturing and analyzing customer behavior is to
+develop models reflecting customer decision-making processes. In turn, these
+models are expected to help predict behaviors associated with the different customer
+archetypes. To continue the example, the company can link a tracking mechanism to
+the email campaign such as a bar code to be scanned at the point of sale. After the
+conclusion of the campaign, statistics can be collected about which customers
+responded. That data set can then be subjected to dimensional analysis based on the
+customer profile characteristics. This will allow some segmentation to suggest any
+correlation between selected variables and purchasing the product, such as showing
+predispositions like:
+n Customers between the ages of 30 and 40
+n Customers living within 2.5 miles of the retail location
+n Customers with an income between $80,000 and $100,000 per year
+n Customers who vacation in Florida during December
+Remember, though, that correlation does not necessarily imply causation. Identifying potentially dependent variables may suggest a predisposition, but establishing
+the predictive nature of this suggestion requires additional research. The bottom line
+is that there is a need feeding the insight back into the process, and you should ask
+questions such as:
+n Can the correlation be validated using additional campaigns?
+Can you verify the causal nature of the correlation? Does this require some alternate investigation such as surveys or focus groups?
+n Can the variable dependences be refined to better target the customer profiles?
+------------------
+**ChatGPT:**
+
+
+The objective of capturing and analyzing customer behavior is to develop models that reflect customer decision-making processes and help predict behaviors associated with different customer archetypes. For example, a company can track customer responses to an email campaign by linking a tracking mechanism, such as a barcode, to be scanned at the point of sale. After the campaign, statistics are collected and subjected to dimensional analysis based on customer profile characteristics, allowing for segmentation and identification of correlations between variables and product purchases. However, it's important to note that correlation does not imply causation. Validating correlations, establishing causality, and refining variable dependences require further research, such as additional campaigns, surveys, or focus groups. This ongoing process helps businesses gain insights and better target customer profiles.
+------------------
+**You:**
+
+
+summarize
+
+If the first objective is to understand who the customers are and what they do, the next
+objective is to apply what you believe about customer archetypes and behaviors to
+influence changes in relation to customer behavior. There may be many approaches
+to behavior change, and that effort can be directed inside the organization or outside
+to the customer community.
+As one approach, the analytical results of customer profile analysis might
+highlight a gap in a business process in which the intended target customer audience
+is not being reached. In that case, the process can be adjusted to broaden the reach to
+the targeted customer types. An example is determining that a particular age segment
+is not responding as expected, and altering the marketing and advertising plan to
+insert television advertisements on channels or networks with the desired age-group
+audience.
+In another approach, you might see that one specific customer segment is predisposed to taking some action. In this case, you might determine if there are other
+customers who might be easily moved from one segment to the desired one through
+a sequence of engagement. An example is an airline seeking to engage more business
+travelers by offering ‘‘elite status’’ incentives for purchasing air travel. At some
+point, travelers with improved elite statuses will have ratcheted into the desired
+customer segment.
+There can be some variety in the approaches to influencing change, some of
+which are hybrids of changing both internal processes and external characteristics.
+The common thread, though, is that analyzing customer profiles and behavior will
+prove to be a meaningless task unless actions are taken in reaction to what is learned.
+------------------
+**ChatGPT:**
+
+
+The next objective after understanding customer archetypes and behaviors is to apply this knowledge to influence changes in customer behavior. There are various approaches to behavior change, which can be directed internally within the organization or externally to the customer community.
+
+One approach is to adjust business processes based on the insights gained from customer profile analysis. If a targeted customer audience is not being reached, the processes can be modified to broaden the reach to those specific customer types. For example, if a certain age segment is not responding as expected, the marketing and advertising plan can be adjusted to include television advertisements on channels or networks that cater to that age group.
+
+Another approach involves identifying specific customer segments that are predisposed to taking certain actions. In this case, efforts can be made to move other customers from one segment to the desired one through a sequence of engagement. For instance, an airline may offer incentives for purchasing air travel to engage more business travelers and elevate them to "elite status," eventually transitioning them into the desired customer segment.
+
+Different approaches may involve a combination of changing internal processes and external characteristics. However, the key point is that analyzing customer profiles and behavior is meaningless unless actions are taken in response to the insights gained. Implementation and adaptation are essential to effectively influence customer behavior.
+------------------
+**You:**
+
+
+summarize
+
+At the most basic level, customer lifetime value (CLV) is a theoretical financial value
+of a customer over the duration of the relationship with your business. There are
+many theories on how this value is calculated. For example, one approach is that
+CLV is calculated as the net present value of the average predicted profit expected
+from sales to (or cash flow attributed to) any customer.
+From a practical perspective, the concept of customer lifetime value is appealing
+because it not only provides a tangible value to be associated with customer
+acquisition, it also directs the key stakeholders in the company to take a long-term
+240 Business Intelligence
+view associated with managing and maintaining the customer relationship. There are
+many models for calculating customer lifetime value that incorporate many different
+variables, although many models incorporate key concepts such as:
+------------------
+**ChatGPT:**
+
+
+Customer Lifetime Value (CLV) is the theoretical financial value that represents the total worth of a customer to a business throughout their entire relationship. There are various approaches to calculating CLV, with one common method being the net present value of the average predicted profit or cash flow attributed to a customer.
+
+From a practical standpoint, CLV is valuable because it not only assigns a tangible value to customer acquisition but also encourages businesses to adopt a long-term perspective when managing and maintaining customer relationships. Numerous models exist for calculating CLV, and these models often incorporate different variables. However, some key concepts commonly considered in CLV calculations include:
+
+Average predicted profit or cash flow: The expected revenue generated by a customer over their lifetime.
+Customer retention rate: The likelihood that a customer will continue their relationship with the business over time.
+Cost of customer acquisition: The expenses incurred to acquire a new customer.
+Discount rate: The rate used to adjust future cash flows to their present value.
+Customer churn rate: The rate at which customers discontinue their relationship with the business.
+
+By understanding and calculating CLV, businesses can make informed decisions regarding customer acquisition, retention strategies, and resource allocation to maximize the long-term value of their customer base.
+------------------
+**You:**
+
+
+summarize in easy manner so that i can understand with in few lines
+
+A customer’s lifetime value is then a function of the net present value of the
+revenue per customer over the customer’s lifetime minus the acquisition, retention,
+and servicing costs. There may be other variables as well, such as attrition costs
+(incurred when a customer severs his or her relationship), as well as revenues (such
+as penalties a customer must pay for severing contracts early).
+The customer lifetime value concept can also provide guidance into strategies for
+dealing with different kinds of customers. One example involves understanding the
+value proposition for customer acquisition. There is typically a cost associated with
+acquiring new customers. If that cost is greater than the customer lifetime value,
+there would have to be some motive other than profitability that drives customer
+acquisition!
+A different example relies on more comprehensive customer segmentation. This
+allows you to be more precise when differentiating between the average customer
+lifetime value across the entire customer base and analyzing customer lifetime value
+within discrete customer segments in ways that may influence marketing and sales.
+For example, a company’s overall average customer lifetime value may be $25, but if
+the customer lifetime value of males between the ages of 18 and 34 is $50, then we
+might draw the conclusion that the product base skews younger. In this case, it may
+make sense to orient the marketing budget toward individuals meeting that specific
+demographic profile because the return on investment is much greater.
+Deriving Insight from Collections of Data 241
+One more use is examining processes within the organization that can be adjusted
+to help increase customer lifetime value. This can be done by focusing on optimizing
+the dependent variables, such as lowering the associated costs, increasing customer
+lifetime, or increasing the profitability.
+Yet one big challenge for calculating and managing customer lifetime value is
+accumulating the right data needed for each of the dependent variables. As an
+example, let’s look at one of these variables: duration of the customer lifetime.
+Calculating customer lifetime requires historical data detailing all customer transactions across all areas of the business. You cannot just depend on the dates of the
+sales transactions, especially when the sales cycle requires numerous steps each time
+the customer is engaged. At the same time, there may be other customer touch points
+that indicate engagement (such as calls to the call center), while monitoring of
+service usage could signal a reduction in use, signifying an imminent disengagement.
+In each case, coming up with a definition for customer engagement and determining what data is necessary to confirm that a customer continues to be engaged
+requires both defined policies and directed data management effort. The same can be
+said about any of the other variables: what are the actual costs of acquisition? Does
+that include the costs of manufacturing the product, marketing, general administrative costs allocated to each customer? What are the ongoing servicing costs? Do
+those include specific service and maintenance activities for each customer, or do we
+also allocate part of the infrastructure charges (such as placing a new cell tower) to
+service costs?
+Customer lifetime value is a very powerful concept that can help drive specific
+actions, both strategic and tactical. And the need to present the appropriate collections of data to help analysts formulate the right types of questions lends credibility
+with our recurring themes of clarifying business term definitions, understanding
+business user requirements, and ensuring quality and governance for the source data
+sets used for driving the data discovery and analysis
+------------------
+**ChatGPT:**
+
+
+Customer lifetime value (CLV) is the total value a customer brings to a business over their entire relationship. It is calculated by subtracting acquisition, retention, and servicing costs from the revenue generated by the customer. CLV helps businesses understand the profitability of acquiring new customers and allows for targeted marketing based on different customer segments. Improving CLV involves optimizing costs, increasing customer lifetime, and boosting profitability. However, calculating CLV requires accurate and comprehensive data on customer transactions and engagement. Proper data management and clear definitions are essential for accurate CLV calculations. CLV is a valuable concept that guides strategic and tactical decision-making by providing insights into customer value and driving actions for business growth.
+------------------
+**You:**
+
+
+summarize
+
+A table key is a set of attributes that can be used to uniquely identify any individual
+record within the table. For example, people databases might use a Social Security
+number as a key (although this is ill-advised, considering that many people do not
+have a Social Security number), because (presumably) no two people share the same
+one. If we have one table that contains a specified key field, other tables may be
+structured with references to the first table’s key as a way of connecting pairs of
+records drawn from both tables. When one table’s key is used as a reference to
+another table, that key is called a foreign key.
+Modern relational databases enforce a constraint known as referential integrity,
+which states that if an attribute’s value is used in table A as a foreign key to table B,
+then that key value must exist in one record in table B. There are two aspects to
+profiling key relationships: identifying that a key relationship exists, and identifying
+what are called orphans in a violated referential integrity situation.
+A foreign key relationship exists between (table A, column x) and (table B,
+column y) if all the values in (table A, column x) overlap completely with the values
+in (table B, column y) and the values in (table B, column y) are unique. A data
+profiling application should be able to apply this assertion algorithmically to find
+foreign key relationships.
+Orphans are foreign key values that do not appear in records in the targeted table.
+An example might be a reference in a catalog to a product that is no longer being
+made or sold by the company. The referential integrity constraint asserts that if the
+product is referenced in the catalog, it must exist in the active products database. If
+the data profiling tool is told that a foreign key relationship exists, it is simple to
+check for orphans. Even if the profiling tool has no prior knowledge about foreign
+Data Profiling 145
+keys, it is possible to loosen the rules for identifying the foreign key relationship to
+find near-foreign keys where there are some values that would be orphans if the
+relationship did really exist. As in other cases, the tool can only propose these
+discoveries as rules, and it is up to the analyst to determine the value in the proposal.
+------------------
+**ChatGPT:**
+
+
+A table key is a set of attributes that uniquely identifies each record in a table. It can be used to connect records between different tables through foreign key relationships. Referential integrity ensures that if a foreign key is used in one table, it must exist as a primary key in another table. Data profiling involves identifying key relationships and detecting orphans, which are foreign key values that do not have corresponding records in the referenced table. Profiling tools can algorithmically identify foreign key relationships and check for orphans. Even without prior knowledge of foreign keys, the tool can propose potential relationships and orphans based on data patterns, but the final assessment is left to the analyst.
+------------------
+**You:**
+
+
+What is data quality
+------------------
+**ChatGPT:**
+
+
+Data quality refers to the overall reliability, accuracy, completeness, consistency, and relevancy of data. It measures the fitness of data for its intended use and ensures that data is reliable, trustworthy, and suitable for analysis and decision-making. Good data quality is essential for businesses to make informed decisions, identify trends, detect anomalies, and derive meaningful insights from their data. Poor data quality, on the other hand, can lead to incorrect conclusions, flawed analysis, and ineffective decision-making. Data quality can be affected by various factors, such as data entry errors, duplication, inconsistency, outdated information, missing values, and lack of data validation processes. Maintaining high data quality requires implementing data quality controls, data cleansing and validation techniques, data governance practices, and regular monitoring and maintenance of data to ensure its accuracy and integrity.
+------------------
+**You:**
+
+
+What is data profiling
+------------------
+**ChatGPT:**
+
+
+Data profiling is the process of analyzing and assessing the content, structure, and quality of data within a dataset or database. It involves examining the data to gain insights into its characteristics, identifying patterns, anomalies, and relationships, and understanding its overall quality and suitability for specific purposes.
+
+Data profiling helps organizations understand their data assets and make informed decisions regarding data management, data integration, data migration, and data quality improvement. It involves examining various aspects of the data, such as data types, data distributions, data patterns, data completeness, data uniqueness, data dependencies, and data relationships.
+
+During data profiling, techniques like statistical analysis, data visualization, and data exploration are employed to uncover insights about the data. It helps identify data quality issues, such as missing values, inconsistent formats, outliers, duplicate records, and referential integrity problems. By profiling the data, organizations can gain a better understanding of the data's characteristics and assess its reliability, accuracy, and overall quality.
+
+Data profiling plays a crucial role in data governance, data integration, and data quality management initiatives. It provides a foundation for data cleansing, data transformation, and data enrichment activities. The insights gained from data profiling enable organizations to take proactive measures to improve data quality, ensure compliance with regulations, and enhance the effectiveness of data-driven decision-making processes.
+------------------
+**You:**
+
+
+summarize above
+------------------
+**ChatGPT:**
+
+
+Data profiling is the process of analyzing and assessing the content, structure, and quality of data. It involves examining data to understand its characteristics, patterns, and relationships. By using techniques like statistical analysis and data visualization, organizations can uncover insights and identify data quality issues such as missing values, inconsistencies, and duplicates. Data profiling helps organizations make informed decisions about data management, integration, and quality improvement. It plays a vital role in data governance and enables proactive measures to enhance data quality and support effective decision-making.
+------------------
+**You:**
+
+
+What is dimension Analysis in 3 lines
+------------------
+**ChatGPT:**
+
+
+Dimension analysis is a mathematical technique used to analyze the relationships between different physical quantities. It involves examining the dimensions (units of measurement) of variables and identifying their dependencies and relationships. Dimensional analysis helps in verifying equations, deriving new formulas, and ensuring consistency in mathematical calculations.
+------------------
+**You:**
+
+
+What are the benefits of Business process model? any 2 are enough
+------------------
+**ChatGPT:**
+
+
+Two benefits of a business process model are:
+
+Improved Efficiency: Business process modeling allows organizations to identify and eliminate inefficiencies in their processes. By visualizing and analyzing the flow of activities, tasks, and resources, businesses can identify bottlenecks, redundancies, and areas for improvement. This leads to streamlined processes, reduced waste, and increased operational efficiency.
+
+Enhanced Communication and Collaboration: Business process models serve as a common language for stakeholders across different departments and levels of the organization. They provide a clear and visual representation of how processes work, enabling effective communication and collaboration among teams. This shared understanding promotes alignment, coordination, and better decision-making, ultimately leading to improved overall performance.
+------------------
+**You:**
+
+
+summarize accourfingly eith sub headings
+
+Organization Business Intelligence Frame work
+------------------
+**ChatGPT:**
+
+
+Organization Business Intelligence Framework:
+
+Overview:
+The Organization Business Intelligence Framework provides a structured approach for implementing business intelligence (BI) within an organization. It encompasses various components and processes that enable the effective use of data and analytics to drive informed decision-making.
+
+Key Components:
+
+Data Integration: This component involves collecting, cleansing, and integrating data from various sources to create a unified and reliable data foundation for analysis. It includes processes such as data extraction, transformation, and loading (ETL).
+Data Warehousing: The data warehousing component focuses on storing and organizing large volumes of structured and/or unstructured data in a central repository. It enables efficient data retrieval and supports complex queries for BI analysis.
+Analytics and Reporting: This component involves applying various analytical techniques, such as data mining, statistical analysis, and predictive modeling, to extract insights and generate meaningful reports and visualizations. It helps in identifying trends, patterns, and key performance indicators (KPIs) for decision-making.
+Data Governance: Data governance ensures the quality, security, and integrity of data throughout its lifecycle. It involves establishing policies, standards, and procedures for data management, access control, privacy, and compliance.
+User Interface and Delivery: This component focuses on providing user-friendly interfaces and tools for accessing and interacting with BI insights. It includes dashboards, self-service BI, mobile applications, and collaboration platforms to facilitate information sharing and decision-making across the organization.
+
+Benefits:
+
+Improved Decision-making: The BI framework enables organizations to make data-driven decisions based on accurate and timely information. It provides a holistic view of business operations, customer behavior, market trends, and financial performance, empowering decision-makers with valuable insights.
+Increased Operational Efficiency: By streamlining data integration, warehousing, and reporting processes, organizations can optimize their operational efficiency. Quick access to relevant information and automated reporting capabilities reduce manual efforts, enhance productivity, and enable proactive decision-making.
+
+Overall, the Organization Business Intelligence Framework establishes a solid foundation for leveraging data and analytics to drive strategic initiatives, gain a competitive advantage, and foster a culture of data-driven decision-making within the organization.
+------------------
+**You:**
+
+
+summarize accordingly with subheadings
+
+Services and System Evolution
+It is probable that the expertise required to assemble and run the BI program is not
+available within your organization. It is also probable that many stages of building
+the BI infrastructure require expertise no longer needed once the system has been
+put into production. For these and assorted other reasons, it is probable that you
+will need to augment your staff with external service providers to help move the
+BI program along. In this section we look at some of the services external
+suppliers can provide.
+The Business Intelligence Environment 73
+ARCHITECTURE AND INTEGRATION
+When assembling a data warehouse and BI architecture, it may be beneficial to bring
+in consultants who have worked on previous successful BI projects to help architect
+the overall solution. Frequently the concept of ‘‘not invented here’’ (NIH) cannot
+only slow down the construction of the environment but also lead to its demise.
+Remember that the ultimate client is the business partner and that making that
+business partner satisfied with the program is the ultimate project goal. If that means
+hiring external consultants to help make it happenddo it!
+In terms of data integration services, the numerous data integration and ETL
+software providers are likely to have supplied software to many similar organizations
+building similar systems. They may also offer consultative help in assembling the
+data integration process and making sure that it works.
+At the end of the spectrum are service providers willing to import your data and
+your integration parameters, perform the integration, and then return the reformatted
+data to you. This may be a viable option when the provider has numerous tools and
+hardware at its disposal, for which you can eliminate your company’s capital
+investment requirements.
+DATA GOVERNANCE
+Most transactional or operational business applications use data as a means to
+accomplish immediate needs, but as more data sets are funneled into a data warehouse and are repurposed for analysis, the needs and expectations for quality,
+availability, and accessibility change dramatically. However, those in control of the
+origination of these data sets may not be aware of the importance of observing the
+collected requirements of all downstream consumers.
+In order to ensure that all data needs are met, a data governance program can be
+instituted to help oversee all aspects of the data life cycle. Creating an organization of
+data governors and data stewards helps to ensure that data policies are defined,
+proposed, agreed to, disseminated, and enforced. This helps in aligning expectations
+across the enterprise, reducing inconsistency, and eliminating costly reconciliations
+and recalculations. Often organizations will engage external expertise in defining
+and guiding the deployment of a data governance program.
+MIGRATION
+Some organizations are interested in instituting a BI program, but their data
+resources are not in a state that can be properly integrated into a BI environment,
+either because their environment is in disarray or because their information is
+embedded in proprietary legacy systems from which it is hard to extract. As
+74 Business Intelligence
+a preface to building a BI program, and in conjunction with a business process
+improvement program, it is useful to migrate older systems into more modern
+systems that are more amenable to data extraction and manipulation. Because this
+system or data migration is a one-time deal, bringing in a service provider to assist in
+the migration process is a reasonable choice.
+ANALYTICAL SERVICE PROVIDERS
+If the cost of building the infrastructure is too much for your organization, though
+you still want to exploit a BI environment, then the answer might be an analytical
+service provider. This is a company that can provide any or all the components of the
+BI process, ranging from data cleansing and integration services all the way to
+completely hosted data warehouse and analytical  solutions.
+TRAINING
+There are organizations dedicated to providing training and education in the BI and
+data warehousing areas. It is worthwhile to make sure that your staff members are
+properly trained and that the organizations doing the training are recognized as
+providing the best knowledge when it comes to the techniques, design, and strategies
+to build successful BI programs. Training should focus on all aspects of the BI
+program, including data warehouse architecture, data integration, data marts, operational data stores, as well as the tools that are used, such as data extraction and
+transformation, OLAP systems, and front-end data consumer analysis tools.
+STRATEGIC MANAGEMENT
+Last, sometimes neither the technical staff nor the business clients are completely
+aware of the capabilities that exist within the marketplace for providing business
+analytics. Again, it may be beneficial to engage external consultants familiar with
+your industry and with the analytical applications that have been built to support your
+industry
+------------------
+**ChatGPT:**
+
+
+Services and System Evolution:
+
+Architecture and Integration:
+
+Bringing in external consultants who have experience with successful business intelligence (BI) projects can be beneficial in architecting the overall BI solution. Overcoming the "not invented here" mentality and focusing on satisfying business partners' needs is crucial.
+Data integration services provided by software vendors can assist in assembling and ensuring the effectiveness of the data integration process within the BI architecture. Some service providers can handle the entire data integration process, eliminating the need for significant capital investment.
+
+Data Governance:
+
+Implementing a data governance program helps ensure that data quality, availability, and accessibility meet the changing needs of analysis in a BI environment. External expertise may be engaged to define and guide the deployment of a data governance program, aligning expectations and reducing inconsistencies.
+
+Migration:
+
+Organizations with data resources in disarray or embedded in legacy systems may need to migrate their systems to more modern environments suitable for integration into a BI program. Engaging a service provider to assist in the migration process can be a reasonable choice.
+
+Analytical Service Providers:
+
+If building a BI infrastructure is cost-prohibitive, organizations can consider partnering with analytical service providers. These providers offer various components of the BI process, including data cleansing, integration services, and fully hosted data warehouses and analytics solutions.
+
+Training:
+
+Dedicated training organizations can provide comprehensive training and education in BI and data warehousing. Ensuring proper training for staff members in various aspects of the BI program, including architecture, data integration, and analysis tools, is crucial for success.
+
+Strategic Management:
+
+External consultants familiar with the industry and analytical applications can provide insights into the capabilities available in the marketplace for business analytics. Their expertise can help organizations leverage analytical solutions tailored to their industry's specific needs.
+
+These services and system evolution options play a significant role in supporting the development, implementation, and ongoing success of a comprehensive business intelligence framework within an organization.
+------------------
+**You:**
+
+
+summarize accordingly with side headings
+
+Information Processing and Information Flow
+The critical dependencies between successful business processes and the use of
+information effectively demonstrate the need to understand how information flows
+through processes and how information is used to support those processes. Mapping
+data lineage across the process will shed light on where decision steps can be
+improved by actionable knowledge. In this section we look at a number of different
+kinds of processing paradigms and how they reflect the application’s implementation
+of the business activities.
+TRANSACTION PROCESSING
+Operations in a transaction processing system are interactions between a user and
+a computer system where there is the perception of an immediate response from the
+system to the user’s requests. A commonly encountered example of transaction
+processing is the use of an automated teller machine (ATM), as shown in Figure 6.1.
+Although there is an appearance of a monolithic system that responds to user
+requests, behind the scenes each interaction may involve a large number of interdependent systems. The concept of a transaction actually incorporates this reality: A
+transaction is really a set of operations grouped together as a unit of work, where no
+Business Processes and Information Flow 81
+individual operation takes its long-term effect unless all the operations can take effect.
+So, using the ATM example, before the bank allows the ATM to disburse cash, the
+user’s account balance must be queried to see if there are sufficient funds, the ATM
+must be checked to see if it has enough cash to satisfy the request, the user’s account
+must then be debited, and the cash can be disbursed. Yet if the result of any of these
+subsidiary operations indicates that servicing the request is infeasible, all the operations must be rolled backdyou wouldn’t want the bank to debit your account without
+giving you the cash, nor would the bank want the cash to be disbursed without debiting
+your account. In this case the information flow follows the thread of control as it passes
+through the individual interaction associated with each transaction.
+OPERATIONAL PROCESSING
+We will use the term operational processing to refer to a system that makes use of
+computers to control a process. These controlled processes can be related to automated activities or might even be used to guide workflows such as opening a bank
+account, picking and packaging materials for shipment, or performing diagnostic
+tests for your car.
+2. Debit the
+ account
+1. Does the
+ account have
+ sufficient funds
+ for withdrawal?
+4. Account 
+ is debited
+ pending
+ disbursement
+Account information
+6. Money is
+ disbursed;
+ confirm
+ debit
+7. Debit is
+ confirmed
+3. Debit the
+ account
+2. Yes
+ATM
+5. Money is disbursed
+8. Receipt is printed
+Figure 6.1 A transaction-based information flow.
+82 Business Intelligence
+As an example, an automated manufacturing line may have multiple machine
+components, each requiring system control instructions based on its internal operational requirements as well as depending on information inputs from other interconnected machine components within the entire system. For example, a potato chip
+manufacturing process contains a series of machines, such as a washer, a slicer,
+a fryer, a sorter, a flavor enhancer, and a packaging machine, each of which helps
+transform a potato into a collection of potato chips.
+In this example, there is a lot of information required at multiple processing
+locations throughout the system to guarantee continuous, managed control of the
+system. Data about the individual interactions between sequential stages as well as
+systemic data need to be propagated to multiple controllers. To continue our potato
+chip factory example, each processing stage requires information about the flow of
+(unfinished) product from the previous stages. In addition, certain events will trigger
+auxiliary control operations (e.g., the seasoning hopper volume falls below the
+required amount, triggering an alert and a pause in the assembly line). And global
+events can also trigger actions (e.g., the cooking temperature exceeds a safe limit,
+triggering a complete line shutdown).
+Operational process information flows are likely to connect heavy sequential
+operational processing augmented by lightweight interconnections for sharing
+information.
+BATCH PROCESSING
+In contrast with transaction processing, batch processing takes collections of
+sequences of similar operations that are to be executed in batches (hence the
+name). Although both transaction processing and batch processing execute
+a series of operations, batch processing differs from transaction processing in
+terms of information flow in the granularity of application of each processing
+stage. A batch processing application is more likely to apply each processing
+stage to a set of data instances as a whole and then push the result to the next
+processing stage.
+As an example, a company might accumulate transaction-based sales orders
+during the day but process those orders and prepare order fulfillment as a batch
+process at night. The fulfillment processing aggregates order line items by customer,
+determines packaging requirements, generates pick lists that instruct the warehouse
+workers what items are to be selected for each shipment, generates shipping labels
+with appropriate shipping vendor data, updates inventory totals, and generates orders
+to restock inventory, among other operations.
+Batch processing information flows typically convey heavy data payloads
+between multiple processing stages, each of which performs a single component of
+the overall unit of work for the data collection.
+Business Processes and Information Flow 83
+ANALYTICAL PROCESSING
+Analytical processing involves the interaction between analysts and collections of
+aggregated data that may have been reformulated into alternate representational
+forms as a means for improved analytical performance. In this case, the information
+flow model most likely will take on two aspects: the flow of information into the
+analytical processing environment from its suppliers and the flow of information
+from the analytical processing system to its users. The first flow is likely to be more
+of an operational flow, in which data sets may be extracted and moved in large
+chunks to a staging area where those data sets move through different processing
+stages. And despite the BI aspect of the users’ interactions, the information flow
+between the data mart clients may resemble a transactional information flow, with
+multiple analysts executing sequences of queries, although here they are less likely to
+be true transactions
+------------------
+**ChatGPT:**
+
+
+Information Processing and Information Flow:
+
+Transaction Processing:
+
+Transaction processing involves user-computer interactions that provide immediate responses. Transactions are sets of operations grouped as a unit of work, where all operations must be successful for the transaction to take effect. Information flows follow the thread of control through each transaction's individual interactions.
+
+Operational Processing:
+
+Operational processing refers to using computers to control processes, such as automated activities or workflows. Information flows in operational processing systems involve data propagation among interconnected components, ensuring continuous control and information sharing for managing the system effectively.
+
+Batch Processing:
+
+Batch processing executes similar operations on data instances as a whole in batches. It involves processing collections of data, such as aggregating sales orders during the day and fulfilling them as a batch process at night. Information flows in batch processing include heavy data payloads between processing stages, where each stage performs a component of the overall unit of work.
+
+Analytical Processing:
+
+Analytical processing involves analysts interacting with aggregated data in alternative forms to improve analytical performance. Information flows in analytical processing include the flow of data into the processing environment from suppliers and the flow of information from the processing system to users. It combines operational flows, such as data extraction and staging, with transactional flows as analysts execute sequences of queries.
+
+Understanding the different processing paradigms and their associated information flows is crucial for optimizing business activities and improving decision-making within an organization.
+------------------
+**You:**
+
+
+summarize according to headings
+
+Analytical Information Needs and Information Flows
+A good way to motivate the discussion of business process mapping and information
+flows is looking at a specific example, such as analyzing customer activities for the
+purposes of creating customer profiles. Let’s say you have been tasked with building
+a data mart for the purpose of analyzing a customer value portfolio based on all
+customer interactions, ranging from telephone inquiries to purchases, returns,
+customer service calls, payment history, and so on. This implies a number of
+information needs.
+78 Business Intelligence
+First, you must determine what information will be required to do this analysis, and then determine where the data sets will be sourced, as well as how the
+information is to be extracted, transformed in preparation for integration into the
+analytical platform, and how that information is to be organized for analysis.
+Next, you must be able to consider rapid methods for integrating new data sets
+when it is determined that they are to be included in the analytical environment.
+Alternatively, you must be able to manage the provision of results (whether that is
+simple reports or more complex presentation of actionable knowledge) to the
+business analysts, each of which may be logically or physically situated in
+a different location.
+It would be difficult, if not impossible, to build an analytical system without
+having a clear understanding of which data sets are potential inputs, what internal
+models are to be used for representation, where the data sets come from, how
+those data sets need to be manipulated before they can be imported into a data
+warehouse, what information is to be provisioned through different subject or
+content data marts, and what kinds of applications are using that data. More
+importantly, after the system is built it is critical to have a blueprint of the way
+that information flows into and out of the system to provide a tracking mechanism
+to back up any conclusions that are drawn through data analysis. To get a handle
+on how to manage this environment, it would be useful to have a high-level
+model of the processes associated with populating and using an analytical
+environment.
+THE VALUE OF MODELING INFORMATION FLOW
+Even when considering the creation of an analytical environment, there is value in
+understanding the ins and outs of the transactional and operational business
+processes and their corresponding application and information flows. The results
+of a BI activity are not limited to a company’s interaction with customers; those
+analyses can generate actionable knowledge as a result of manipulating data sets
+accumulated from a large collection of data producers, such as internal (i.e., within
+the organization) and external (i.e., cross-company) business applications. As an
+example, consider a supply-chain interaction between your company and
+a collection of product suppliers. There is embedded business knowledge that can
+be derived from examining all details of those interactions, including measuring
+vendor sensitivity to your requests, response time, methods of delivery, compliance
+with contractual agreements, and conformance to just-in-time delivery issues. To
+extract this intelligence we must understand how we have implemented our
+business applications and determine what data we need to collect and where that
+information needs to be collected. The information flow model will assist in this
+determination.
+Business Processes and Information Flow 79
+PROCESS DESIGN VERSUS APPLICATION IMPLEMENTATION
+Traditionally, implementers are trained in algorithm design to break down each
+application into a collection of discrete processing stages that can be essentially
+implemented in isolation. When all the stages are finished, they are combined to
+form the complete application. But this process of discretizing the construction of
+applications leads to an assembly line model of information processing in the way
+that data and partial results are forwarded from one processing stage to another.
+These processes take data (e.g., a transaction stream or extracted records from
+multiple data sets) as input and provide some product as output. That can be
+a physical product (such as invoices to be sent out to customers), a side effect (such
+as the settlement of a sequence of transactions), or an information product (such as
+a BI report).
+To remedy the eventual effects of this development process, an important part of
+the methodology of designing and implementing a business application is modeling
+the business process as a way of guiding the algorithmic implementation. In fact,
+building this model is the first step in the process of exploiting information. This
+business process modeling incorporates descriptions of the business objects that
+interact within the system as well as the interactions between users and those
+business objects. The same concept holds true for analytical and intelligence
+applications, where the eventual product is described in terms of analytical use and
+benefit.
+------------------
+**ChatGPT:**
+
+
+Analytical Information Needs and Information Flows:
+
+Determining Information Requirements:
+
+When analyzing customer activities to create customer profiles, it is essential to determine the necessary information for the analysis and identify data sources. This includes understanding how data will be extracted, transformed, and integrated into the analytical platform and organizing the information for analysis.
+
+Managing New Data Sets:
+
+The ability to rapidly integrate new data sets into the analytical environment is crucial. The process should accommodate the inclusion of new data and ensure seamless integration into the existing system.
+
+Provisioning Results to Business Analysts:
+
+The results of the analysis, whether in the form of reports or actionable insights, need to be provided to business analysts. This process should consider the distribution of results to analysts located in different locations.
+
+The Value of Modeling Information Flow:
+
+Broad Scope of Business Intelligence:
+
+Business intelligence activities go beyond customer interactions and involve analyzing data from various sources. Understanding transactional and operational processes and their associated information flows allows for the generation of actionable knowledge from a diverse range of data producers.
+
+Extracting Business Intelligence:
+
+Examining details of supply-chain interactions, such as vendor responsiveness, delivery methods, and compliance, can provide valuable business intelligence. Modeling information flow helps determine the necessary data to collect and where to collect it from.
+
+Process Design versus Application Implementation:
+
+Business Process Modeling:
+
+Designing and implementing business applications should involve modeling the business process itself. This approach guides the algorithmic implementation and ensures that the information flow aligns with the desired business objectives.
+
+Incorporating Business Objects and Interactions:
+
+Business process modeling includes descriptions of the business objects involved in the system and the interactions between users and those objects. This approach applies to both operational and analytical applications, where the focus is on describing the analytical use and benefits of the eventual product.
+------------------
+**You:**
+
+
+summarize with side headings
+
+Performance monitoring and improvement both rely on measuring and reporting the
+scores for metrics used to quantify the effectiveness of particular processes and the
+value of their outcomes. Although metrics scores are used in different ways based on
+the business processes being monitored, there are certain characteristics that are
+common to the concept of a metric. At the most basic level, a metric represents
+a quantification of a single score to answer a specific business question, and the base
+level metric, in many cases, can be a simple aggregate value such as a count or an
+average. In turn, individual metrics can be grouped together into higher-level scores
+computed as functions of the individual component measurements.
+Every metric is intended to contribute in answering business questions. A
+prerequisite to defining data warehouse models or building a reporting system is
+engaging the business users to help in identifying, clarifying, and documenting
+specific business data needs for the system. This requires interviewing key system
+stakeholders and customers to clarify business processes and needs as a prelude to
+synthesizing the requirements for the system model. This incorporates reviewing,
+analyzing, and integrating system information and stakeholder interview data to
+create key artifacts such as a fact/qualifier matrix that will drive the definition of the
+model, the determination of data sources to populate the model, and the processes for
+presenting metric information back to the business users.
+TABLE 7.1 Sample Business Analyses and Their Methods of Delivery
+Level of Data Aggregation Users Delivery
+Rolled-up summaries Executive staff Dashboards or scorecards
+Aggregated
+management data
+Mid-level and senior
+managers
+Summary stats, alerts,
+queries, and scorecards
+Structured analytic
+data
+Special purposedmarketing,
+business process analysis
+Data mining, OLAP,
+analytics, etc.
+Detailed operational
+data
+Front line employees Alerts, KPIs, queries,
+drill-down (on demand)
+Aggregate values Individual contributors Alerts, messaging
+Data Requirements Analysis 93
+THE FACT/QUALIFIER MATRIX
+Without loss of generalization, let’s initially consider the base level metric and
+enumerate key attributes that are relevant for capturing the performance
+measures critical for answering the business questions in a fact/qualifier matrix.
+A fact/qualifier matrix is a standard data warehouse development tool designed to
+organize specific business information needs into a format that aids in developing
+relational and multidimensional data structures. Facts represent specific business
+questions or discrete items of information that are tracked or managed, and are
+generally items that can be counted or measured such as quantity or volume.
+Qualifiers represent conditions or dimensions that are used to filter or organize your
+facts. Qualifiers include items such as time or geographic area.
+In a fact/qualifier matrix, all business facts are listed down the left-hand column
+and all possible qualifier dimensions are listed across the columns. An entry at any
+intersection identifies the qualifying dimensions used to filter, organize, or aggregate
+the associated fact data.
+As an example, business questions like ‘‘How many widgets have been shipped
+by size by warehouse each week by color?’’ and ‘‘What are the total sales for widgets
+by size each week for each salesperson by region?’’ provide insight into the progress
+of a metadata registration process as part of a performance management activity.
+The fact/qualifier matrix will specify the business facts that are expected to be
+measureddin this case, ‘‘the number of widgets shipped’’ and ‘‘total sales of
+widgets shipped,’’ and the specific dimensional qualifiers are ‘‘size,’’ ‘‘color,’’
+‘‘week,’’ ‘‘warehouse,’’ ‘‘salesperson,’’ and ‘‘region’’ (Table 7.2). Subsequent
+iterations of the analysis process may derive greater precision for some of these
+TABLE 7.2 Example Fact/Qualifier Matrix
+Facts
+Number of Widgets Total Sales
+Qualifiers
+Size X X
+Warehouse X
+Color X
+Week X X
+Salesperson X
+Region X
+94 Business Intelligence
+qualifiers, such as breaking out the week qualifier into time frames with different
+levels of granularity (such as daily, hourly, yearly, etc.).
+Documentation for the facts and their qualifiers may already exist, but restructuring those requirements within a fact/qualifier matrix provides some benefits:
+n It provides a logical structure for capturing business user requirements.
+n It provides a standardized way to present the requirements back to the business
+users for validation.
+n It enables the analyst to review the collected business requirements and determine
+if there are any overlapping facts or common dimensional qualifiers.
+n It guides the analysts in identifying the data sources that can be used to populate
+the metrics data model.
+THE METRICS MODEL
+The fact/qualifier matrix provides guidance for developing how the metrics are used,
+combined, or rolled up to provide summarization and drill-through. For example,
+each presented score can either be a base metric score, consisting of a single quantification of a requested qualified fact, or a qualified score computed as a function of
+the weighted scores associated with other metrics. These scores are often accompanied by other relevant metadata such as units of measure, classification, and evaluation criteria (or thresholds) for reporting satisfaction of business user expectations.
+To continue our example, the business user might be interested in more than just
+knowing the number of widgets shipped. Instead, that manager might want to ensure
+that each warehouse is shipping a minimum level of 20 units of each size and color of
+widget every week, and anticipating shipping more than 30 units of each size of widget
+each week. In this case, the metric is the count (broken out along the defined dimensions), and the evaluation criteria might be specified in terms of a three-tiered scoring:
+n Green if the number is greater than or equal to 30;
+n Yellow if the number is greater than or equal to 20 and less than 30; and
+n Red if the number is less than 20.
+Metrics defined at a higher aggregate level will compose the results of the
+incorporated metric scores. In our example, the cumulative score for all the warehouses for each widget size shipped is the sum of the number of widget units shipped
+for each size, divided by the number of warehouses. In other words, the cumulative
+average reflects the higher level of performance, and we can use the same thresholds
+for scoring as at the lower level.
+Since metrics and scores associated with compound metrics are to be reported to
+the end-client, the designer must enable the definition of ‘‘buckets’’ or categories for
+the alignment of metric scores into the right collection. For example, we might group
+Data Requirements Analysis 95
+the logistics performance metrics together into one category, product-oriented
+performance metrics (such as color and size) into another category, and the sales
+metrics into another. This effectively defines a taxonomy structure for metrics.
+However, we must be aware that some metrics may be suitable to support more than
+one hierarchy, so the model’s means for categorization must not restrict the inclusion
+of a metric into a single logical bucket.
+The metrics model must be able to support the capture of both the base-level
+metrics (pure counts) and the more complex compound metrics composed of lower
+levels. This suggests a model that supports a hierarchy that captures the parent-child
+relationship as well as the categories associated with the eventual reporting scheme.
+Doing so enables the end-client to review the top-level report, but also enables the
+drill-through capability that allows the analyst to seek out root causes exposed
+through the reporting. As long as the model captures the score for each metric as well
+as the evaluation criteria within each hierarchy, the analyst can drill down through the
+hierarchy levels to determine where the specific measures indicate an opportunity for
+operational improvement or for instituting alternate policies to improve performance.
+------------------
+**ChatGPT:**
+
+
+Performance Monitoring and Improvement:
+
+Characteristics of Metrics:
+
+Metrics are used to measure and report the effectiveness of processes and the value of their outcomes. They represent quantifications of specific scores that answer business questions. Base-level metrics can be simple aggregates like counts or averages, while higher-level scores are computed functions of individual metrics.
+
+Engaging Business Users:
+
+Before defining data warehouse models or building a reporting system, it is crucial to involve business users in identifying and documenting specific data needs. This requires interviewing stakeholders and customers to clarify business processes, synthesize requirements, and create artifacts like a fact/qualifier matrix to drive the system model.
+
+The Fact/Qualifier Matrix:
+
+Organizing Performance Measures:
+The fact/qualifier matrix is a tool used in data warehouse development to organize business information needs. Facts represent specific business questions or items that can be measured, while qualifiers are conditions or dimensions used to filter or organize the facts. The matrix helps capture requirements, present them to users for validation, identify overlapping facts or common qualifiers, and guide data source identification.
+
+The Metrics Model:
+
+Using Metrics and Scores:
+
+The fact/qualifier matrix guides the development of how metrics are used, combined, and rolled up for summarization and drill-through. Metrics can be base-level scores or computed scores based on other metrics. Evaluation criteria, thresholds, units of measure, and classifications are relevant metadata accompanying the scores.
+
+Compound Metrics and Categorization:
+
+Compound metrics composed of lower-level metrics can be categorized into buckets or categories for reporting alignment. The metrics model should support a hierarchy that captures parent-child relationships and categories, allowing for top-level reporting and drill-through analysis.
+
+Enabling Performance Analysis:
+
+The metrics model should capture scores and evaluation criteria within each hierarchy, enabling drill-down analysis to identify opportunities for operational improvement and alternative policies to enhance performance. The model facilitates reviewing top-level reports while exploring root causes through drill-through capabilities.
+------------------
+**You:**
+
+
+summarize with side headinfs
+------------------
+**ChatGPT:**
+
+
+Performance Monitoring and Improvement:
+
+Characteristics of Metrics:
+
+Metrics represent quantifications of scores used to measure the effectiveness of processes
+------------------
+**You:**
+
+
+summarize with side headinfsInitial Steps in Starting a Business Intelligence Program
+Technicians are drawn to large-scale data-intensive projects because of the technical
+challenge as well as the alluring draw of ‘‘cool technology’’ or the opportunity to
+learn new skills and enhance a resume. Business people are attracted by the belief
+that a BI program will magically increase profitability while drastically decreasing
+costs. Business people are incessantly pitched the silver bullet that is going to solve
+all their past, current, and future business problems.
+While either of these drivers may have been enough in the past to guarantee a BI
+budget, the poor track record of these kinds of projects coupled with increasingly
+focused project management and governance has forced the reduction in budget,
+resources, and in the worst case the ultimate elimination of BI programs. It is
+extremely important to understand some key success factors that will help maintain
+corporate investment in BI. In the next sections we will drill down into fundamental
+aspects of the BI program such as:
+n Championship. Senior-level champions ensuring corporate sponsorship;
+n Level-Setting. Establishing high-level goals and setting expectations;
+n Partnering. Creating a partnership among the participants that provides incentives to act strategically;
+n Vision. Asserting a strategic vision that guides design, development, and
+deployment;
+n Plan. Establishing a plan that delivers intermediate value while achieving the
+long-term goals.
+CHAMPIONSHIP AND MANAGEMENT SPONSORSHIP
+There is no doubt that after reading any article, white paper, blog posting, or book on
+data warehousing, BI, business analytics, master data management, or customer
+relationship management (CRM), we might think that no single technological
+advance could ever have taken place without the backing of a senior business
+manager. And in spite of the concept being a cliche´, when we consider the intricacies
+of integrating an analytical, strategic program into an operational environment, the
+roadblocks that appear are not technical but mostly personal and political, necessitating a strong personality to champion the cause within the organization.
+Reading between the lines in the literature, what we can infer is that one of the
+reasons most frequently cited for the failure of a BI program is the lack of seniorlevel sponsorship. But what is meant by senior-level sponsorship? This term alludes
+to two different concepts: explicitly, it is indicative of the seniority of the manager(s)
+involved, but perhaps more importantly, it implicitly refers to ensuring a corporate
+financial partnership for the program.
+Planning for Success 37
+The first concept focuses on establishing a partnership with a senior-level
+manager (or, better yet, managers) at a level high enough to impose governance on
+the program and one who is able to enforce cooperation with those entrusted with the
+implementation of the program. This includes defining and ensuring the organizational commitment along and across the organization structure and removing barriers
+to success.
+The second concept focuses on the senior management’s establishing a vested
+stake in the success of the project. Whether this involves direct profit and loss (P&L)
+responsibility or whether it is defined more loosely in terms of stated business
+expectations, having a senior manager with a personal stake in the success (and
+correspondingly, the prevention of failure) of the program will project a corporate
+commitment to project accountability. Even more important is the financial backing
+(in other words: budget) needed to design, acquire the componentry for, build, and
+deploy the necessary infrastructure as well as engage the right team with the
+necessary skills. Also, attributing successes in the BI program to those managers
+with a stake provides an additional personal incentive to make sure the project
+succeeds.
+ESTABLISHING HIGH-LEVEL GOALS AND SETTING EXPECTATIONS
+When program failure is manifested as ‘‘missed expectations,’’ it often implies
+a misalignment between the developers’ goals and the end users’ expectations. In
+essence, user expectations must be set in the context of the value drivers for BI, the
+ability of the technologists to develop tools to meet those expectations, and the
+collective business users’ appetites for change. Any misalignment will lead to an
+absence of well-defined goals, and in the absence of well-defined goals, how can we
+ever determine the point of success of a project?
+One of the most frequent critiques of the BI industry is the general expectation
+that ‘‘if you build it, they will come.’’ In other words, build the data warehouse and
+suddenly business clients will line up to drink from an unlimited tap of business
+value. But if there are no goals for achieving value, the value drivers are not refined,
+or if there are no measures or methods of measurement of success, what often
+happens is that the time to build the data warehouse exceeds the patience level of the
+business partners. By the time the data warehouse is completed, there is either
+significant difficulty in extracting the right kinds of reports from it or limited trust in
+the information that is extracted from it.
+To properly recognize success, we must have proper metrics used to measure
+success. This has to be defined in terms of delivering the value that the client expects.
+This means that there has to be a well-defined approach to soliciting business user
+needs, expectations, and performance measures, and we will address that in greater
+detail.
+38 Business Intelligence
+PARTNERING
+Performance improvement can be motivated through measurement and reporting,
+but the value of improving performance can only be achieved when all constituents work together. That being said, there are going to be times when different
+participants’ perceptions of value differ, even though all participants are being
+asked to contribute to the program success. But people are human, and it is
+always going to be easier to engage individuals when they have a clear expectation of the value they will receive as a result. This concept must be applied
+across the organization in a way that engages all participants by effectively
+communicating each participant’s stake in both the short-term and the long-term
+success of the program.
+This implies that there is some incentive for everybody associated with the
+project to achieve the specified goals. In a number of organizations I have observed,
+two environments that conflict with the notion of a stake in success seem to prevail.
+The first is the ‘‘What have you done for me lately?’’ mentality, which rewards
+individual achievements accomplished within short-term periods. This attitude
+encourages tactical steps at the expense of long-term strategy and stifles strategic
+thinking. The second environment is the ‘‘inequitable risk/reward’’ mentality, where
+individuals who have taken on added risk and have sacrificed short-term successes in
+exchange for long-term strategy are overlooked when it comes to advances in
+compensation or position, which in turn also discourages strategic thinking.
+The success partnership should be designed so that short-term successes can be
+engineered into a long-term strategy, where components of a BI strategy are
+implemented in a sequence that provides ongoing value. In turn, all participants are
+to be rewarded for meeting well-defined milestones and achieving specific goals
+within reasonable deadlines. This is in contrast to the ‘‘big bang’’ approach, where
+three years are spent building the all-encompassing environment and where all
+centralized governance and business value becomes secondary to delivering
+a complete, fully integrated enterprise data warehouse.
+ESTABLISHING A VISION
+A vision statement is a straightforward declaration describing how the control and
+exploitation of actionable knowledge will add value to the organization. Those
+organizations that are bound to this type of vision will best demonstrate execution of
+strategy to gain competitive advantage.
+Vision statements are precise and are crafted specifically for each organization
+within each industry. For example, in the financial industry, it may be expressed in
+terms of recognizing that the potential for increasing value lies in the most precise
+and fastest analysis of financial information, followed by taking some action to
+Planning for Success 39
+exploit that advantage, such as in financial arbitrage. Another example might be the
+retail industry, where the value vision is expressed as using information to
+completely understand the customer, which in turn can lead to more effective targeted marketing, increased volume sales, reduced customer churn, and overall
+improved customer satisfaction.
+This vision embodies an agreement between the business management and the
+technologists that long-term corporate information-based strategy is critical to the
+future of a business and that synergy and cross-fertilizing technology and business
+expertise will result in higher profits and lower costs for the business and in personal
+rewards for all participants.
+DEVELOPING A PLAN
+A strategy translates the overall vision into a set of tactics for execution. A blueprint
+provides a high-level guide to executing the strategy, and the BI roadmap will detail
+the stages in which those concepts are brought to fruition. A good program manager
+will adapt the roadmap into a program plan that details the resources, tasks, and
+schedule for requirements analysis, design, validation of design, development,
+implementation, and deployment to production.
+------------------
+**ChatGPT:**
+
+
+Initial Steps in Starting a Business Intelligence Program:
+
+Championship and Management Sponsorship:
+
+Senior-level champions should ensure corporate sponsorship and provide governance.
+Establish a partnership with senior-level managers who can enforce cooperation and remove barriers.
+Senior management should have a vested stake in the success of the program and provide financial backing.
+
+Establishing High-Level Goals and Setting Expectations:
+
+Align developers' goals with end users' expectations to avoid misalignment and missed expectations.
+Define well-defined goals that determine the success of the project.
+Solicit business user needs, expectations, and performance measures to deliver expected value.
+
+Partnering:
+
+Engage all participants by communicating their stake in short-term and long-term program success.
+Establish incentives for individuals associated with the project to achieve specified goals.
+Design a success partnership that rewards meeting milestones and achieving goals.
+
+Establishing a Vision:
+
+Craft a vision statement that describes how actionable knowledge adds value to the organization.
+Customize the vision statement for each organization within its industry.
+Emphasize the importance of long-term information-based strategy and synergy between business and technology.
+
+Developing a Plan:
+
+Translate the overall vision into tactics for execution.
+Create a blueprint and BI roadmap to guide the execution of the strategy.
+Adapt the roadmap into a program plan detailing resources, tasks, and schedules for various stages of implementation.
+------------------
+**You:**
+
+
+summarize with side headings
+
+Bridging the Gaps Between Information Technology
+and the Business Users
+If one of the success factors in gaining the best advantage from a BI and analytics
+program is establishing a partnership between the business users and the information
+technology team, what are the barriers between these two groups, and how can they
+be overcome? To answer this question, we can look at how over time, the evolution of
+technical resources has had an interesting influence on more than the speed at which
+things get done.
+There is what we might call a psychological effect on the way people work
+together (or not) based on the allocation and distribution of technical resources. This
+is reflected in the evolution of approaches for how technology development and
+support has been linked to business applications in a relatively siloed manner. In the
+early days of computing, all technical/business analysts shared time on huge
+computers housed in separate rooms; the services provided were purely operationaldthere were no BI applications at all.
+But as technology increasingly has become both smaller and more affordable,
+there are corresponding changes in connecting technology to the business. For
+example, the era of both the minicomputer (operating as a departmental resource) and
+the personal computer, along with the trend of distributed computing, enabled some
+40 Business Intelligence
+degree of ‘‘self-service’’ that led to some operational efficiencies as well as some
+degree of freedom. With a machine on his or her desktop, a business manager could
+make use of desktop productivity tools for both operational and intelligence-oriented
+processing; you no longer needed to be a scientific programmer carrying stacks of
+punch cards to use computers. There was a need for technical support, and the concept
+of the information technology department evolved into a technology development,
+support, and evaluation organization, investigating new hardware and applications.
+DICHOTOMY
+On the other hand, the way the information technology department has evolved has
+imposed an artificial boundary between those who require computer services and
+those who provide those services. This is mostly because the ability to build userfriendly end-user applications has broken down the barrier to entry to exploiting
+computers. In turn, there is a greater need for both technicians to solve problems with
+computer use and those who can translate a business user’s problems into a collection
+of technical issues. And although the way that these IT personnel were compensated
+evolved into complicated charge-backs and accounting tricks, it was clear that the
+division between business and IT is essentially a budgetary one: IT is usually a cost
+center, as opposed to the business units, which are supposed to be profit centers. But
+this split imposes a deeper philosophical division between information technology
+providers and business users because the interaction framework is built around the IT
+folks asking the business folks to support the IT initiatives (i.e., with money).
+This is demonstrated by considering a typical exchange between developers and
+business users: The implementers say, ‘‘We want to make improvements, but our
+budget has been cut. How can we do this with no additional spending?’’ The business
+users say, ‘‘We expected the data warehouse to be online already, but it is a year late and
+over budget and is still unusable!’’ The implementers say, ‘‘We want to get the project
+finished, but the requirements keep changing!’’ The users say, ‘‘The business environment continues to change, and what were requirements a year ago, when we first
+planned the project, are no longer the same.’’ Clearly, the entities perceived as the ‘‘IT
+side’’ and the ‘‘business side’’ have aligned themselves in an adversarial relationship.
+Taking this interaction to its extreme, both sides are eventually dissatisfied, because
+reduced budgets lead to missed deadlines and unmet business-side expectations.
+PARTNERING
+Fortunately, there is a growing knowledge overlap between the IT and business sides.
+As the relationships between business units and IT groups grow, we find that the IT
+side gradually learns more and more about how the business works and that the
+business side has a growing understanding of the capabilities and limitations of the
+Planning for Success 41
+technology. These business people now understand more about the relationship
+between business applications and the hardware, software, and developer resources
+they require, and the technologists document and learn more about business process
+modeling and how those processes can be encapsulated within an operational system.
+This is a growing knowledge management trend that reflects the need for a deeper
+understanding of how to exploit data and technology to gain a competitive edge.
+One aspect of this trend is the abstraction of the components of the BI process.
+Recurring themes such as business rule management, data governance, business
+metadata and data lineage, workflow analysis, classification and segmentation, and
+business process modeling are continually being introduced and refined within
+frameworks for business/IT partnerships, effectively providing a way to formalize
+and document the ground rules associated with the way the BI program will work, as
+well as a means for planning the implementation of that program
+------------------
+**ChatGPT:**
+
+
+Bridging the Gaps Between Information Technology and the Business Users:
+
+Evolution of Technical Resources:
+
+Allocation and distribution of technical resources influence how people work together.
+Changes in technology, such as minicomputers and personal computers, enabled self-service and operational efficiencies.
+Information technology departments evolved into technology development, support, and evaluation organizations.
+
+Dichotomy:
+
+Artificial boundary between those who require computer services and those who provide them.
+Greater need for technicians and translators who can solve technical issues and understand business users' problems.
+Budgetary division between information technology providers and business users creates an adversarial relationship.
+
+Partnering:
+
+Growing knowledge overlap between the IT and business sides.
+IT side learns more about how the business works, and the business side understands the capabilities and limitations of technology.
+Abstraction of BI components and introduction of frameworks for business/IT partnerships to formalize ground rules and plan implementation.
+------------------
+**You:**
+
+
+summarize with side heading
+
+Knowing the Different Types of Business Intelligence Users
+There is increasing penetration of the results of data analytics and BI across the
+organization to influence decision-making at many different management levels.
+Understanding the reporting and analytics user community sheds light on the reliance on different types of analytic applications.
+ANALYTIC DATABASES AND INFORMATION CONSUMERS
+An insightful Forrester1 report in the mid 2000s suggested classifying information
+consumer communities associated with BI as a way of assessing business needs for
+reporting and analytics tools as well as qualifying suitability of BI tools to meet those
+needs. While their characterization focused largely on consumers interacting directly
+with the analytics products, we can provide an augmented classification of roles who
+benefit from reporting and analysis engines:
+n Power users, who constitute a community of experienced, sophisticated analysts
+who want to use complex tools and techniques to analyze data and whose results
+will inform decision-making processes.
+n Business users, who rely on domain-specific reporting and analyses prepared by
+power users, but who also rely on their own ad hoc queries and desire access to
+raw data for drilling down, direct interaction with analytics servers (such as
+OLAP tools or ‘‘mash-ups’’), extraction, and then further manipulation, perhaps
+using desktop utility tools.
+n Casual users, who may represent more than one area of the business, and rely on
+rolled-up metrics from across functions or operational areas summarized from
+predesigned reports presented via scorecards or dashboards.
+42 Business Intelligence
+n Data aggregators or Information providers, which are businesses that collect
+industry- or societywide data and enhance and reorganize that data as a way of
+providing value-added services to customers and subscribers. Some examples
+include database marketing services, financial and credit information services,
+real estate business information services, audience measurement services, market
+research providers, and national statistical agencies, among others.
+n Operational analytics users, who indirectly rely on the results of analytics
+embedded within operational applications. Examples include call center representatives whose interactive scripts are adjusted interactively in relation to
+customer profiles, predicted behavioral predispositions, and real-time customer
+responses, web site offers and ad placement, or users of retail shelf management
+systems that adjust stock levels based on demand across multiple regions.
+n Extended enterprise users, composed of external parties, customers, regulators,
+external business analysts, partners, suppliers, or anyone with a need for reported
+information for tactical decision-making.
+n IT users, mostly involved in the development aspects of BI, and whose use of BI
+is more for supporting the needs of other information consumers.
+Across levels of skill, management role, or even with customers outside the
+enterprise, it is likely that information consumers benefit from the aggregation and
+analysis of massive data sets. Increasingly, operational decision-making at all levels
+of the organization is informed via notifications and alerts through a variety of
+channels resulting from continuous pervasive BI and analysis, and in fact, the
+analysis process itself is supplemented (e.g., customer profiling, classification, and
+segmentation) using results computed 
+------------------
+**ChatGPT:**
+
+
+Knowing the Different Types of Business Intelligence Users:
+
+Analytic Databases and Information Consumers:
+
+Classification of information consumer communities helps assess business needs for reporting and analytics tools.
+Augmented classification of roles benefiting from reporting and analysis engines:
+Power users: Experienced analysts using complex tools for decision-making.
+Business users: Rely on domain-specific reporting and ad hoc queries, desire access to raw data, and use desktop utility tools.
+Casual users: Rely on rolled-up metrics from pre-designed reports presented via scorecards or dashboards.
+Data aggregators or information providers: Collect and enhance industry-wide data for value-added services.
+Operational analytics users: Rely on analytics embedded within operational applications.
+Extended enterprise users: External parties requiring reported information for tactical decision-making.
+IT users: Involved in BI development to support other information consumers.
+
+Benefits of BI for Information Consumers:
+
+Information consumers benefit from aggregated and analyzed massive data sets.
+Operational decision-making at all levels of the organization is informed through notifications and alerts.
+Continuous pervasive BI and analysis provide insights and support decision-making processes.
+------------------
+**You:**
+
+
+summarize with sub headings
+
+Strategic Versus Tactical Planning
+If BI program failures are attributable to incomplete requirements and missed
+expectations, then to succeed, we must strike a balance between aiming to meet the
+long-term desires while satisfying the clients’ immediate needs in the short term.
+LONG-TERM GOALS
+The long-term strategy of a BI program involves building an analytical information
+platform from which business value can be derived. The seamless enterprise BI
+environment essentially is a factory to collect information from multiple sources,
+prepare that data for use, aggregate it in a repository, provide analytical services,
+and supply the means for accessing and viewing the results of those analytical
+processes.
+The appeal of this end state is its provision of the necessary business-oriented
+functions that any particular vertical area could desire. Yet the inability to deliver the
+entire package within a short amount of time limits the feasibility of a team’s
+50 Business Intelligence
+building the entire intelligence resource at one time. In fact, committing a large
+amount of resources to a long-term project without identifiable short-term results is
+the kind of risk that most senior-level managers are not likely to take.
+Therefore, it is important to develop the end-state vision while keeping in mind
+that short-term successes are critical. And designing the implementation plan with
+those short-term value-adding deliverables in mind is more likely to lead to overall
+success than the big-bang approach.
+SHORT-TERM SUCCESS
+The smart approach is to look for opportunities for short-term successes that conform
+to the plan for reaching the end state. For example, if a business client anticipates
+having a data mart populated from a data warehouse, it may not be necessary to
+source the mart directly from a data warehouse. Instead, it may be possible to create
+a data mart from the required data sources that satisfies the clients’ needs, and
+providing the mart and the associated analytical and reporting components will yield
+business value while not detracting from the strategic goal. Later, when the largescale repository is available, the data mart can be reconfigured to be sourced instead
+from the repository. In this case, the client may see no difference in the analytical
+environment, so having implemented the mart first is a short-term success that fits in
+with the long-term goals.
+Other ways to achieve short-term successes include aspects of the program that
+will have auxiliary benefits. For example, a data cleansing effort that improves a data
+set’s quality will benefit the current users of that data as well as the BI clients.
+Funding and deploying a data quality effort will not only provide immediate value, it
+will also provide a set of business processes and tools that can be leveraged for future
+data cleansing projects.
+Deciding which program components to deploy early in the plan should be
+directly driven by client needs. It is possible that some work may need to be done in
+the wrong logical order or perhaps may even need to be implemented twice. But if
+this must be done to satisfy the senior-level sponsor, it is important to make sure
+business clients are satisfied that their perceived intelligence needs are being met.
+And remember: Always look for an opportunity for reuse, whether it be a tool,
+a process, metadata, or data sets.
+------------------
+**ChatGPT:**
+
+
+Strategic Versus Tactical Planning:
+
+Long-Term Goals:
+
+The long-term strategy of a BI program involves building an analytical information platform.
+The seamless enterprise BI environment collects and prepares data, aggregates it, provides analytical services, and allows access to results.
+The end state vision offers desired business-oriented functions but may not be feasible to deliver all at once.
+Short-term successes are critical to gaining support from senior-level managers.
+
+Short-Term Success:
+
+Look for opportunities for short-term successes that align with the long-term plan.
+Implement components that add value and contribute to the strategic goal.
+Example: Creating a data mart from required data sources initially, and later reconfiguring it to be sourced from the data warehouse.
+Auxiliary efforts like data cleansing provide immediate value and tools for future projects.
+Deploy program components based on client needs, even if it requires working in the wrong logical order or implementing them twice.
+Ensure client satisfaction by addressing their perceived intelligence needs.
+
+Opportunity for Reuse:
+
+Always look for opportunities to reuse tools, processes, metadata, or data sets.
+Reuse can optimize resources, enhance efficiency, and support future initiatives.
+------------------
